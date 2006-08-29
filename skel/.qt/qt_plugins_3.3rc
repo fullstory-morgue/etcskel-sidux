@@ -1,8 +1,0 @@
-[usr]
-lib/kde3/plugins/styles/highcolor.so=30303^e3^ex86_64 Linux g++-3.* full-config^e2004-11-01T08:57:04^e
-lib/kde3/plugins/styles/keramik.so=30303^e3^ex86_64 Linux g++-3.* full-config^e2004-11-01T08:57:04^e
-lib/kde3/plugins/styles/kthemestyle.so=30303^e3^ex86_64 Linux g++-3.* full-config^e2004-11-01T08:57:04^e
-lib/kde3/plugins/styles/light.so=30303^e3^ex86_64 Linux g++-3.* full-config^e2004-11-01T08:57:04^e
-lib/qt3/plugins/imageformats/libqjpeg.so=30303^e3^ex86_64 Linux g++-3.* full-config^e2004-11-17T04:08:32^e
-lib/qt3/plugins/imageformats/libqmng.so=30303^e3^ex86_64 Linux g++-3.* full-config^e2004-11-17T04:08:32^e
-

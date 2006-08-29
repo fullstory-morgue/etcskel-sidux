@@ -1,3 +1,16 @@
+etcskel-kanotix (0.6.67) unstable; urgency=low
+
+  * remove obsolete wmaker preconfig.
+  * remove obsolete .qt preconfig.
+  * remove obsolete kaxtv preconfig.
+  * remove obsolete larswm preconfig.
+  * remove obsolete XFCE4 preconfig.
+  * remove obsolete ROX preconfig.
+  * remove obsolete nautilus preconfig.
+  * bump standards version 3.7.2.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 29 Aug 2006 15:22:25 +0200
+
 etcskel-kanotix (0.6.66) unstable; urgency=low
 
   * bump gecko revision.
