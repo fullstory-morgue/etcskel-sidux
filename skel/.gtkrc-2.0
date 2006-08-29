@@ -1,0 +1,11 @@
+# This file was written by KDE
+# You can edit it in the KDE control center, under "GTK styles and fonts"
+
+include "/usr/share/themes/Industrial/gtk-2.0/gtkrc"
+
+style "user-font"
+{
+	font_name="Sans Serif 11"
+}
+widget_class "*" style "user-font"
+gtk-font-name="Sans Serif 11"

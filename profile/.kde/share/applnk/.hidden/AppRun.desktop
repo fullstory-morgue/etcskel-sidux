@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=
+Exec=$HOME/.zAppRun %U
+Icon=view_remove
+InitialPreference=2
+MimeType=all/cmg;Application
+Name=
+ServiceTypes=
+Terminal=false
+Type=Application

@@ -1,0 +1,18 @@
+Source: etcskel-kanotix
+Section: misc
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends-Indep: cdbs (>= 0.4.23-1.1), debhelper (>= 5.0.0)
+Standards-Version: 3.6.2
+
+Package: etcskel-kanotix
+Architecture: all
+Depends: distro-defaults, kanotix-su
+Description: Skeleton files for all user
+ set useful preferences for new users.
+
+Package: user-profile-kanotix
+Architecture: all
+Depends: distro-defaults, kanotix-su
+Description: Skeleton files for the KANOTIX default user
+ set useful preferences for new users.

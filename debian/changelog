@@ -1,0 +1,565 @@
+etcskel-kanotix (0.6.66) unstable; urgency=low
+
+  * bump gecko revision.
+  * replaced xine preconfig.
+
+ -- Joerg Schirottke <master@kanotix.com>  Wed, 10 May 2006 23:45:55 +0200
+
+etcskel-kanotix (0.6.65) unstable; urgency=low
+
+  * bump gecko revision.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 10 Mar 2006 20:52:10 +0100
+
+etcskel-kanotix (0.6.64) unstable; urgency=low
+
+  * update .zAppRun, thanks to Niall Walsh.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 30 Dec 2005 02:04:58 +0100
+
+etcskel-kanotix (0.6.63) unstable; urgency=low
+
+  * firefox 1.5 - system default dpi 
+
+ -- Joerg Schirottke <master@kanotix.com>  Tue, 20 Dec 2005 19:50:55 +0100
+
+etcskel-kanotix (0.6.62) unstable; urgency=low
+
+  * removed arts error message.
+  * firefox 1.5 - dpi 72 - no startup screen.
+
+ -- Joerg Schirottke <master@kanotix.com>  Tue, 20 Dec 2005 02:34:12 +0100
+
+etcskel-kanotix (0.6.61) unstable; urgency=low
+
+  * modify kickerrc.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 22:11:41 +0100
+
+etcskel-kanotix (0.6.60) unstable; urgency=low
+
+  * adapt for firefox 1.5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 17:06:29 +0100
+
+etcskel-kanotix (0.6.59) unstable; urgency=low
+
+  * remove cdbs auto-update feature.
+  * bump compat level to 5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 11:48:43 +0100
+
+etcskel-kanotix (0.6.58) unstable; urgency=low
+
+  * add fuse based klik Client from Niall Walsh.
+  * remove knoppix virtual packages.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  9 Dec 2005 01:58:31 +0100
+
+etcskel-kanotix (0.6.57) unstable; urgency=low
+
+  * further customizations.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 Oct 2005 23:17:01 +0200
+
+etcskel-kanotix (0.6.56) unstable; urgency=low
+
+  * add wirelessX.
+  * adapt udev/ pmount usage.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 24 Oct 2005 23:38:08 +0200
+
+etcskel-kanotix (0.6.55) unstable; urgency=low
+
+  * remove kcmartsrc.
+  * make etcskel install safe.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 22 Oct 2005 01:27:39 +0200
+
+etcskel-kanotix (0.6.54) unstable; urgency=low
+
+  * revert klik changes (remove fuse support).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 16 Oct 2005 00:05:33 +0200
+
+etcskel-kanotix (0.6.53) unstable; urgency=low
+
+  * add renamed udev network devices.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 15 Oct 2005 13:46:02 +0200
+
+etcskel-kanotix (0.6.52) unstable; urgency=low
+
+  * change wallpaper location.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 10 Oct 2005 23:25:12 +0200
+
+etcskel-kanotix (0.6.51) unstable; urgency=low
+
+  * add fuse support for klik.
+  * remove .kde/share/config/knotify.eventsrc
+  * remove /etc/skel/Desktop/Trash
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  9 Oct 2005 02:30:11 +0200
+
+etcskel-kanotix (0.6.50) unstable; urgency=low
+
+  * add preconfig for knemo.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 12 Sep 2005 13:55:12 +0200
+
+etcskel-kanotix (0.6.49) unstable; urgency=low
+
+  * make this safe for hd installs.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 12 Sep 2005 03:00:00 +0200
+
+etcskel-kanotix (0.6.48) unstable; urgency=low
+
+  * remove static PAGER override from /etc/profile.
+  * add OpenOffice2 link.
+  * fix lintian/ linda warnings.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Sep 2005 13:58:15 +0200
+
+etcskel-kanotix (0.6.47) unstable; urgency=low
+
+  * remove kanotix-irc desktop icon (install kanotix-irc instead).
+  * remove xchat2 skel (install kanotix-irc instead).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 17 Jul 2005 00:10:12 +0200
+
+etcskel-kanotix (0.6.46) unstable; urgency=low
+
+  * add new XFC4 skeleton directoy from mzilikazi. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  7 Jul 2005 21:55:30 +0200
+
+etcskel-kanotix (0.6.45) unstable; urgency=low
+
+  * updated bookmarks
+  * fix lintian issues. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  7 Apr 2005 01:22:01 +0200
+
+etcskel-kanotix (0.6.44) unstable; urgency=low
+
+  * remove xine splash.
+  * no icon text wrapping.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Apr 2005 00:17:09 +0200
+
+etcskel-kanotix (0.6-43) unstable; urgency=low
+
+  * update Firefox/Thunderbird preconfig
+
+ -- Joerg Schirottke <master@kanotix.com>  Tue,  8 Feb 2005 22:36:02 +0100
+
+etcskel-kanotix (0.6-42) unstable; urgency=low
+
+  * update klik. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  8 Feb 2005 19:15:56 +0100
+
+etcskel-kanotix (0.6-41) unstable; urgency=low
+
+  * update klik.
+
+ -- Joerg Schirottke <master@kanotix.com>  Tue,  8 Feb 2005 12:58:44 +0100
+
+etcskel-kanotix (0.6-40) unstable; urgency=low
+
+  * removed duplicates.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  5 Feb 2005 22:18:32 +0100
+
+etcskel-kanotix (0.6-38) unstable; urgency=low
+
+  * update presets. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  5 Feb 2005 21:30:04 +0100
+
+etcskel-kanotix (0.6-37) unstable; urgency=low
+
+  * fix profile. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  4 Feb 2005 16:18:00 +0100
+
+etcskel-kanotix (0.6-36) unstable; urgency=low
+
+  * fix bashrc/ profile. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  4 Feb 2005 14:08:29 +0100
+
+etcskel-kanotix (0.6-35) unstable; urgency=low
+
+  * further klik adjustments. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  4 Feb 2005 02:34:35 +0100
+
+etcskel-kanotix (0.6-34) unstable; urgency=low
+
+  * update klik. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  4 Feb 2005 00:51:25 +0100
+
+etcskel-kanotix (0.6-33) unstable; urgency=low
+
+  * change klik. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  3 Feb 2005 22:39:03 +0100
+
+etcskel-kanotix (0.6-32) unstable; urgency=low
+
+  * fix klik issues. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  3 Feb 2005 21:40:19 +0100
+
+etcskel-kanotix (0.6-31) unstable; urgency=low
+
+  * fix packaging.
+  * update klik preconfig.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed,  2 Feb 2005 15:49:58 +0100
+
+etcskel-kanotix (0.6-30) unstable; urgency=low
+
+  * fix dependencies.
+  * change packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Dec 2004 00:57:18 +0100
+
+etcskel-knoppix (0.6-29kanotix0.1) unstable; urgency=low
+
+  * fork for Kanotix.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  5 Dec 2004 00:37:00 +0100
+
+etcskel-knoppix (0.6-29) unstable; urgency=low
+
+  * Add kdebugrc to kill annoying KDE warnings
+
+ -- root <knopper@linuxtag.net>  Sun, 22 Aug 2004 09:49:05 +0200
+
+etcskel-knoppix (0.6-28) unstable; urgency=low
+
+  * Corrected path of the mozilla browser icon for Debian/unstable KDE menu-xdg
+
+ -- root <knopper@linuxtag.net>  Sat,  1 May 2004 23:10:00 +0200
+
+etcskel-knoppix (0.6-27) unstable; urgency=low
+
+  * KDE 3.2 update
+
+ -- root <knopper@linuxtag.net>  Tue, 20 Apr 2004 02:16:30 +0200
+
+etcskel-knoppix (0.6-26) unstable; urgency=low
+
+  * Added kate configuration for larger window on startup
+
+ -- root <knopper@linuxtag.net>  Wed,  3 Mar 2004 04:08:04 +0100
+
+etcskel-knoppix (0.6-25) unstable; urgency=low
+
+  * add /usr/NX/bin to searchpath
+
+ -- root <knopper@linuxtag.net>  Sun, 29 Feb 2004 01:28:23 +0100
+
+etcskel-knoppix (0.6-24) unstable; urgency=low
+
+  * Use PATH, no LD_LIBRARY_PATH for live installed binaries, on request of
+    odi.
+
+ -- root <knopper@linuxtag.net>  Thu, 22 Jan 2004 15:00:40 +0100
+
+etcskel-knoppix (0.6-23) unstable; urgency=low
+
+  * Added PATH and LD_LIBRARY_PATH for live installer
+
+ -- root <knopper@linuxtag.net>  Thu, 22 Jan 2004 14:18:48 +0100
+
+etcskel-knoppix (0.6-22) unstable; urgency=low
+
+  * Added PATH for $HOME/bin
+
+ -- root <knopper@linuxtag.net>  Wed, 21 Jan 2004 19:36:29 +0100
+
+etcskel-knoppix (0.6-21) unstable; urgency=low
+
+  * Add OpenOffice menu for gnome
+  * Set mozilla diskcache to 0 bytes
+
+ -- root <knopper@linuxtag.net>  Wed, 21 Jan 2004 18:55:13 +0100
+
+etcskel-knoppix (0.6-20) unstable; urgency=low
+
+  *  Remove Knoppix.WEG folder.
+
+ -- root <knopper@linuxtag.net>  Wed, 21 Jan 2004 15:41:23 +0100
+
+etcskel-knoppix (0.6-19) unstable; urgency=low
+
+  * Add $HOME/bin to user path
+
+ -- root <knopper@linuxtag.net>  Tue, 20 Jan 2004 17:41:20 +0100
+
+etcskel-knoppix (0.6-18) unstable; urgency=low
+
+  * Added gnome-configs from Oliver Diedrich
+
+ -- root <knopper@linuxtag.net>  Thu, 15 Jan 2004 05:22:12 +0100
+
+etcskel-knoppix (0.6-17) unstable; urgency=low
+
+  * Added gnome-terminal config
+
+ -- root <knopper@linuxtag.net>  Tue, 13 Jan 2004 01:37:01 +0100
+
+etcskel-knoppix (0.6-16) unstable; urgency=low
+
+  * Added gnome skeletons for Knoppix 3.4
+
+ -- root <knopper@linuxtag.net>  Sun, 11 Jan 2004 22:41:59 +0100
+
+etcskel-knoppix (0.6-15) unstable; urgency=low
+
+  * Added gimp skeletons
+
+ -- root <knopper@linuxtag.net>  Sun, 11 Jan 2004 21:15:37 +0100
+
+etcskel-knoppix (0.6-14) unstable; urgency=low
+
+  * Added MPEG filetype for KDE
+
+ -- root <knopper@linuxtag.net>  Thu, 20 Nov 2003 00:56:58 +0100
+
+etcskel-knoppix (0.6-13) unstable; urgency=low
+
+  * Removed fontcache (doesn't work)
+
+ -- root <knopper@linuxtag.net>  Mon, 22 Sep 2003 00:01:49 +0200
+
+etcskel-knoppix (0.6-12) unstable; urgency=low
+
+  * Added Knoppix taskbar menu
+  * Some KDE3 updates
+
+ -- root <knopper@linuxtag.net>  Sun, 14 Sep 2003 00:24:48 +0200
+
+etcskel-knoppix (0.6-11) unstable; urgency=low
+
+  * Added fontcache
+
+ -- root <knopper@linuxtag.net>  Fri,  5 Sep 2003 21:00:49 +0200
+
+etcskel-knoppix (0.6-10) unstable; urgency=low
+
+  * Added low-precedence kaboodle
+
+ -- root <knopper@linuxtag.net>  Fri, 20 Jun 2003 01:35:15 +0200
+
+etcskel-knoppix (0.6-9) unstable; urgency=low
+
+  * Added modified userChrome with 12 pixel font for Mozilla
+
+ -- root <knopper@linuxtag.net>  Thu, 19 Jun 2003 01:33:51 +0200
+
+etcskel-knoppix (0.6-8) unstable; urgency=low
+
+  * Added alias su="sudo su"
+
+ -- root <knopper@linuxtag.net>  Mon, 28 Apr 2003 02:17:51 +0200
+
+etcskel-knoppix (0.6-7) unstable; urgency=low
+
+  * Added huge font as default for konsole
+
+ -- root <knopper@linuxtag.net>  Sat, 19 Apr 2003 06:43:19 +0200
+
+etcskel-knoppix (0.6-6) unstable; urgency=low
+
+  * Removed evolution from config
+
+ -- root <knopper@linuxtag.net>  Sun,  6 Apr 2003 21:52:27 +0200
+
+etcskel-knoppix (0.6-5) unstable; urgency=low
+
+  * AddedNL translations to Trashcan and Floppy disk icon
+
+ -- root <knopper@linuxtag.net>  Tue,  1 Apr 2003 00:20:23 +0200
+
+etcskel-knoppix (0.6-4) unstable; urgency=low
+
+  * Added some NL translations
+
+ -- root <knopper@linuxtag.net>  Mon, 31 Mar 2003 17:27:32 +0200
+
+etcskel-knoppix (0.6-3) unstable; urgency=low
+
+  * KDE 3.1.1 updates
+
+ -- Knoppix User <knopper@linuxtag.net>  Sun, 23 Mar 2003 01:12:40 +0100
+
+etcskel-knoppix (0.6-2) unstable; urgency=low
+
+  * Added xfce4 config files
+
+ -- root <knopper@linuxtag.net>  Sun,  9 Feb 2003 04:05:40 +0100
+
+etcskel-knoppix (0.6-1) unstable; urgency=low
+
+  * Split /etc/skel and /usr/share/knoppix/profile
+
+ -- root <knopper@linuxtag.net>  Sat,  8 Feb 2003 04:08:31 +0100
+
+etcskel-knoppix (0.5-25) unstable; urgency=low
+
+  * Remove kde sockets (will be created by KDE 3.1)
+
+ -- root <knopper@linuxtag.net>  Tue,  4 Feb 2003 20:07:39 +0100
+
+etcskel-knoppix (0.5-24) unstable; urgency=low
+
+  * New templates for KDE 3.1
+
+ -- root <knopper@linuxtag.net>  Wed, 29 Jan 2003 23:19:32 +0100
+
+etcskel-knoppix (0.5-23) unstable; urgency=low
+
+  * Added aliases for .. and l
+
+ -- root <knopper@linuxtag.net>  Sat,  4 Jan 2003 04:21:36 +0100
+
+etcskel-knoppix (0.5-22) unstable; urgency=low
+
+  * $HOME for filemanagement instead of /home/knoppix
+
+ -- root <knopper@linuxtag.net>  Wed,  1 Jan 2003 21:41:08 +0100
+
+etcskel-knoppix (0.5-21) unstable; urgency=low
+
+  * New gnome2 config
+
+ -- root <knopper@linuxtag.net>  Tue, 10 Dec 2002 21:30:14 +0100
+
+etcskel-knoppix (0.5-20) unstable; urgency=low
+
+  * New gnome config
+
+ -- root <knopper@linuxtag.net>  Sun,  6 Oct 2002 16:49:22 +0200
+
+etcskel-knoppix (0.5-19) unstable; urgency=low
+
+  * Removed pingus link
+
+ -- root <knopper@linuxtag.net>  Tue, 10 Sep 2002 02:20:18 +0200
+
+etcskel-knoppix (0.5-18) unstable; urgency=low
+
+  * Removed kaboodle
+
+ -- root <knopper@linuxtag.net>  Sat, 17 Aug 2002 16:49:33 +0200
+
+etcskel-knoppix (0.5-17) unstable; urgency=low
+
+  * Added xine template
+
+ -- root <knopper@linuxtag.net>  Mon, 29 Jul 2002 18:18:44 +0200
+
+etcskel-knoppix (0.5-16) unstable; urgency=low
+
+  * Added Floppy format option in KDE-Desktop icon
+
+ -- root <knopper@linuxtag.net>  Sat, 27 Jul 2002 22:37:46 +0200
+
+etcskel-knoppix (0.5-15) unstable; urgency=low
+
+  * New window position and size for webbrowser
+
+ -- root <knopper@linuxtag.net>  Sun, 14 Jul 2002 07:44:17 +0200
+
+etcskel-knoppix (0.5-14) unstable; urgency=low
+
+  * XMMS is now again the default player for various audio and video formats
+
+ -- root <knopper@linuxtag.net>  Wed, 10 Jul 2002 22:08:14 +0200
+
+etcskel-knoppix (0.5-13) unstable; urgency=low
+
+  * Switched on software rendering for transparent menus
+
+ -- root <knopper@linuxtag.net>  Wed, 10 Jul 2002 21:55:28 +0200
+
+etcskel-knoppix (0.5-12) unstable; urgency=low
+
+  * Added inputrc from Eduard Bloch
+
+ -- root <knopper@linuxtag.net>  Sat,  6 Jul 2002 01:39:47 +0200
+
+etcskel-knoppix (0.5-11) unstable; urgency=low
+
+  * XMMS is the default player for audio files
+
+ -- root <knopper@linuxtag.net>  Sat,  6 Jul 2002 00:23:48 +0200
+
+etcskel-knoppix (0.5-10) unstable; urgency=low
+
+  * KDE3 settings
+
+ -- root <knopper@linuxtag.net>  Fri, 28 Jun 2002 17:04:46 +0200
+
+etcskel-knoppix (0.5-9) unstable; urgency=low
+
+  * Added filemanager profile with extended navigation
+
+ -- root <knopper@linuxtag.net>  Wed, 15 May 2002 23:52:07 +0200
+
+etcskel-knoppix (0.5-8) unstable; urgency=low
+
+  * Changed default PDF reader to acrobat
+
+ -- root <knopper@linuxtag.net>  Fri,  3 May 2002 01:16:33 +0200
+
+etcskel-knoppix (0.5-7) unstable; urgency=low
+
+  * gnome-terminal settings update
+
+ -- root <knopper@linuxtag.net>  Thu,  2 May 2002 16:51:18 +0200
+
+etcskel-knoppix (0.5-6) unstable; urgency=low
+
+  * font fixes for gnome
+
+ -- root <knopper@linuxtag.net>  Thu,  2 May 2002 01:23:13 +0200
+
+etcskel-knoppix (0.5-5) unstable; urgency=low
+
+  * Changed prompt color to cyan in bashrc
+  * Added context-sensitive bash completion
+
+ -- root <knopper@linuxtag.net>  Thu, 25 Apr 2002 16:20:29 +0200
+
+etcskel-knoppix (0.5-4) unstable; urgency=low
+
+  * Added mozilla chrome file template
+
+ -- root <knopper@linuxtag.net>  Sat, 13 Apr 2002 22:56:07 +0200
+
+etcskel-knoppix (0.5-3) unstable; urgency=low
+
+  * Added locales workaround for pingus
+
+ -- root <knopper@linuxtag.net>  Sat, 13 Apr 2002 02:04:00 +0200
+
+etcskel-knoppix (0.5-2) unstable; urgency=low
+
+  * Fixed location of xplaymidi in Multimedia menu
+
+ -- root <knopper@linuxtag.net>  Mon,  8 Apr 2002 03:20:36 +0200
+
+etcskel-knoppix (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- unknown <knopper@linuxtag.net>  Fri,  1 Jun 2001 23:29:31 +0200
+
