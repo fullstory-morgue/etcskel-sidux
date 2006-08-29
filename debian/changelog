@@ -1,3 +1,9 @@
+etcskel-kanotix (0.6.68) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 29 Aug 2006 15:24:12 +0200
+
 etcskel-kanotix (0.6.67) unstable; urgency=low
 
   * remove obsolete wmaker preconfig.
