@@ -1,5 +1,5 @@
 [$Version]
-update_info=kaccel.upd:kde3.1/r3,socks.upd:kde3.0/r1,kded.upd:kde3.0,klippershortcuts.upd:04112002,kwin.upd:kde3.2Xinerama,kaccel.upd:kde3.3/r1
+update_info=kaccel.upd:kde3.1/r3,socks.upd:kde3.0/r1,kded.upd:kde3.0,klippershortcuts.upd:04112002,kwin.upd:kde3.2Xinerama,kaccel.upd:kde3.3/r1,mouse_cursor_theme.upd:kde3.4.99
 
 [DesktopIcons]
 ActiveColor=169,156,255
@@ -28,8 +28,9 @@ Number=4
 
 [General]
 TerminalApplication=konsole
+XftAntialias=true
 XftHintStyle=hintmedium
-XftSubPixel=
+XftSubPixel=none
 alternateBackground=238,246,255
 background=234,233,232
 buttonBackground=230,240,249
@@ -50,14 +51,15 @@ windowForeground=0,0,0
 
 [Global Shortcuts]
 Activate Window Demanding Attention=default(Alt+Ctrl+A)
-Defaults timestamp=Nov  4 200418:09:21
+Block Global Shortcuts=none
+Defaults timestamp=Jul 29 200623:21:05
 Desktop Screenshot=default(Ctrl+Print)
 Enable/Disable Clipboard Actions=default(Alt+Ctrl+X)
 Halt without Confirmation=none
 Kill Window=default(Alt+Ctrl+Escape)
 Lock Session=default(Alt+Ctrl+L)
-Logout=default(Alt+Ctrl+Delete)
-Logout without Confirmation=default(Alt+Ctrl+Shift+Delete)
+Log Out=default(Alt+Ctrl+Delete)
+Log Out Without Confirmation=default(Alt+Ctrl+Shift+Delete)
 Manually Invoke Action on Current Clipboard=default(Alt+Ctrl+R)
 Mouse Emulation=default(Alt+F12)
 Next Taskbar Entry=none
@@ -65,6 +67,7 @@ Popup Launch Menu=default(Alt+F1)
 Previous Taskbar Entry=none
 Reboot without Confirmation=none
 Run Command=default(Alt+F2)
+Setup Window Shortcut=none
 Show Klipper Popup-Menu=default(Alt+Ctrl+V)
 Show Taskmanager=default(Ctrl+Escape)
 Show Window List=default(Alt+F5)
@@ -72,6 +75,7 @@ Switch One Desktop Down=none
 Switch One Desktop Up=none
 Switch One Desktop to the Left=none
 Switch One Desktop to the Right=none
+Switch User=default(Alt+Ctrl+Insert)
 Switch to Desktop 1=default(Ctrl+F1)
 Switch to Desktop 10=default(Ctrl+F10)
 Switch to Desktop 11=default(Ctrl+F11)
@@ -97,8 +101,8 @@ Switch to Next Keyboard Layout=default(Alt+Ctrl+K)
 Switch to Previous Desktop=none
 Toggle Showing Desktop=default(Alt+Ctrl+D)
 Toggle Window Raise/Lower=none
-Walk Through Desktop List=default(Ctrl+Tab)
-Walk Through Desktop List (Reverse)=default(Ctrl+Shift+Tab)
+Walk Through Desktop List=Ctrl+Tab
+Walk Through Desktop List (Reverse)=Ctrl+Shift+Tab
 Walk Through Desktops=none
 Walk Through Desktops (Reverse)=none
 Walk Through Windows=default(Alt+Tab)
@@ -117,6 +121,10 @@ Window Minimize=none
 Window Move=none
 Window No Border=none
 Window On All Desktops=none
+Window One Desktop Down=none
+Window One Desktop Up=none
+Window One Desktop to the Left=none
+Window One Desktop to the Right=none
 Window Operations Menu=default(Alt+F3)
 Window Pack Down=none
 Window Pack Left=none

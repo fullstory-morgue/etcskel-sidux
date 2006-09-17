@@ -1,5 +1,5 @@
 [$Version]
-update_info=kickerrc.upd:kde_3_1_sizeChanges,kickerrc.upd:kde_3_4_reverseLayout
+update_info=kickerrc.upd:kde_3_1_sizeChanges,kickerrc.upd:kde_3_4_reverseLayout,kickerrc.upd:kde_3_5_kconfigXTize
 
 [Applet_1]
 ConfigFile=kminipagerappletrc
@@ -7,7 +7,7 @@ DesktopFile=minipagerapplet.desktop
 FreeSpace=0
 FreeSpace2=0
 HeightForWidthHint=44
-WidthForHeightHint=72
+WidthForHeightHint=71
 
 [Applet_2]
 ConfigFile=ktaskbarappletrc
@@ -15,7 +15,7 @@ DesktopFile=taskbarapplet.desktop
 FreeSpace=0
 FreeSpace2=0
 HeightForWidthHint=207
-WidthForHeightHint=8
+WidthForHeightHint=210
 
 [Applet_3]
 ConfigFile=ksystemtrayappletrc
@@ -23,7 +23,7 @@ DesktopFile=systemtrayapplet.desktop
 FreeSpace=1
 FreeSpace2=1
 HeightForWidthHint=35
-WidthForHeightHint=108
+WidthForHeightHint=158
 
 [Applet_4]
 ConfigFile=clockappletrc
@@ -31,16 +31,22 @@ DesktopFile=clockapplet.desktop
 FreeSpace=1
 FreeSpace2=1
 HeightForWidthHint=36
-WidthForHeightHint=75
+WidthForHeightHint=77
+
+[Applet_5]
+ConfigFile=trash_panelapplet_grvqntykowbyvwnwnvel_rc
+DesktopFile=trashapplet.desktop
+FreeSpace2=1
+WidthForHeightHint=54
 
 [DesktopButton_1]
 FreeSpace=0
 FreeSpace2=0
 
 [General]
-Alignment=1
+Alignment=0
 Applets=KMenuButton_1,ServiceMenuButton_1,WindowListButton_1,DesktopButton_1,URLButton_1,URLButton_3,URLButton_4,ServiceButton_1,ServiceMenuButton_2,Applet_1,Applet_2,Applet_3,Applet_4
-Applets2=KMenuButton_1,ServiceMenuButton_1,WindowListButton_1,DesktopButton_1,URLButton_1,URLButton_3,ServiceButton_1,URLButton_4,ServiceMenuButton_2,Applet_1,Applet_2,Applet_3,Applet_4
+Applets2=KMenuButton_1,DesktopButton_1,URLButton_1,URLButton_4,ServiceButton_1,URLButton_3,Applet_1,Applet_2,Applet_3,Applet_4,Applet_5
 AutoHideAnimation=true
 AutoHideAnimationSpeed=100
 AutoHideDelay=3
@@ -54,15 +60,17 @@ Extensions2=
 HideAnimation=true
 HideAnimationSpeed=100
 HideButtonSize=12
+IExist=true
 Position=3
 ResizeableHandle=false
 SecurityLevel=1
 ShowHideButtons=true
-ShowLeftHideButton=true
+ShowLeftHideButton=false
 ShowRightHideButton=true
 ShowToolTips=true
 Size=2
 SizePercentage=100
+Transparent=true
 TrustedApplets=clockapplet,ksystemtrayapplet,krunapplet,quicklauncher,kminipagerapplet,ktaskbarapplet,eyesapplet,kmixapplet
 UnhideLocation=6
 UntrustedApplets=
@@ -77,20 +85,21 @@ UseSidePixmap=true
 FreeSpace=0
 FreeSpace2=0
 
+[Main Panel]
+ConfigFile=kickerrc
+DesktopFile=childpanelextension.desktop
+UserHidden=0
+
+[Menubar Panel]
+ConfigFile=kicker_menubarpanelrc
+DesktopFile=childpanelextension.desktop
+UserHidden=0
+
 [ServiceButton_1]
 DesktopFile=/usr/share/applications/mozilla-firefox.desktop
 FreeSpace=0
 FreeSpace2=0
 StorageId=firefox.desktop
-
-[ServiceMenuButton_1]
-FreeSpace=0
-FreeSpace2=0
-RelPath=Kanotix/
-
-[ServiceMenuButton_2]
-FreeSpace2=0
-RelPath=Office/
 
 [URLButton_1]
 FreeSpace=0
@@ -106,10 +115,6 @@ URL=file:///usr/share/applnk/System/konsole.desktop
 FreeSpace=0
 FreeSpace2=0
 URL=file:///usr/share/applnk/Internet/konqbrowser.desktop
-
-[WindowListButton_1]
-FreeSpace=0
-FreeSpace2=0
 
 [button_tiles]
 BrowserTile=solid_green
@@ -131,14 +136,13 @@ EnableTileBackground=false
 
 [menus]
 ClearMenuCache=true
-DetailedEntriesNamesFirst=true
-DetailedMenuEntries=true
 Extensions=
 MaxEntries2=30
 MenuCacheTime=60000
+MenuEntryFormat=NameAndDescription
 MergeKDEDirs=true
 NumVisibleEntries=5
-RecentAppsStat=1 1134852142 /usr/share/applications/xchat.desktop
+RecentAppsStat=
 RecentVsOften=true
 ShowHiddenFiles=false
 UseBookmarks=true

@@ -1,6 +1,6 @@
 user_pref("browser.display.screen_resolution", 0);
 user_pref("browser.enable_automatic_image_resizing", true);
-user_pref("browser.startup.homepage_override.mstone", "rv:1.8.0.3");
+user_pref("browser.startup.homepage_override.mstone", "rv:1.8.0.6");
 user_pref("browser.tabs.opentabfor.middleclick", true);
 user_pref("browser.tabs.opentabfor.urlbar", true);
 user_pref("browser.tabs.warnOnClose", false);

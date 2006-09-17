@@ -1,12 +1,16 @@
-etcskel-kanotix (0.6.68) UNRELEASED; urgency=low
+etcskel-kanotix (0.6.69) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Joerg Schirottke ]
+  * update xine keymap.
+  * update kdeglobals.
+  * bump gecko revision.
+
+  [ Stefan Lippers-Hollmann ]
   * remove obsolete nessus preconfig.
-  * remove obsolete xine preconfig, let vdr takes care of this in the future.
   * remove obsolete acroread preconfig, we don't ship it anyways and
     adobereader has changed a lot.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  1 Sep 2006 02:00:26 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 18 Sep 2006 01:11:31 +0200
 
 etcskel-kanotix (0.6.67) unstable; urgency=low
 
