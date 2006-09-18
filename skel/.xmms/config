@@ -1,0 +1,2 @@
+[xmms]
+output_plugin=/usr/lib/xmms/Output/libALSA.so
