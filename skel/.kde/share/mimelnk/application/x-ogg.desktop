@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=Ogg-Multimedia
-Hidden=false
-Icon=multimedia
-MimeType=application/x-ogg
-Patterns=*.ogg;*.OGG
-Type=MimeType

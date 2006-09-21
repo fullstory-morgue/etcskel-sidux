@@ -1,8 +1,9 @@
-etcskel-kanotix (0.6.72) UNRELEASED; urgency=low
+etcskel-kanotix (0.6.72) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * deleted unused files.
+  * set kpdf as default for pdf in firefox.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 19 Sep 2006 00:21:44 +0200
+ -- Joerg Schirottke <master@kanotix.com>  Thu, 21 Sep 2006 19:29:01 +0200
 
 etcskel-kanotix (0.6.71) unstable; urgency=low
 
