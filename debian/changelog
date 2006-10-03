@@ -1,6 +1,5 @@
-etcskel-kanotix (0.6.73) UNRELEASED; urgency=low
+etcskel-kanotix (0.6.73) unstable; urgency=low
 
-  * NOT RELEASED YET
   * remove nessus keys.
   * we don't ship elinks, so remove obsolete preconfigs.
   * arrangeicons.desktop isn't installed at all, so remove it alltogether.
@@ -31,7 +30,7 @@ etcskel-kanotix (0.6.73) UNRELEASED; urgency=low
   * remove stale KDE session.
   * .kde/Autostart isn't customized, remove it.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  3 Oct 2006 14:46:53 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  3 Oct 2006 15:26:10 +0200
 
 etcskel-kanotix (0.6.72) unstable; urgency=low
 
