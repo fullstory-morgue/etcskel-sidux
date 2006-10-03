@@ -1,8 +1,37 @@
 etcskel-kanotix (0.6.73) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * remove nessus keys.
+  * we don't ship elinks, so remove obsolete preconfigs.
+  * arrangeicons.desktop isn't installed at all, so remove it alltogether.
+  * kcookiejar is empty, get rid of it.
+  * kdeprint is empty, get rid of it.
+  * kfile is empty, get rid of it.
+  * RecentDocuments is empty, get rid of it.
+  * emaildefaults isn't customized, so don't include it.
+  * kbackgammon.eventsrc isn't customized, so don't include it.
+  * kcmfontinstrc is obsolete, remove it.
+  * kcminitrc is empty, remove it.
+  * remove obsolete scanPaths from kcmnspluginrc.
+  * we don't need kconf_updaterc.
+  * kcontrolrc is not customized, remove it.
+  * kioslaverc just states the obvious, remove it.
+  * kit.eventsrc isn't customized, remove it.
+  * klaunchrc isn't customized, remove it.
+  * kmailrc isn't configured, remove it.
+  * knewsticker.eventsrc isn't customized, remove it.
+  * kruler.eventsrc isn't customized, remove it.
+  * ksame.eventsrc isn't customized, remove it.
+  * ksysguard.eventsrc isn't customized, remove it.
+  * ktalkannouncerc isn't customized, remove it.
+  * ktalkdrc isn't customized, remove it.
+  * kuriikwsfilterrc isn't customized, remove it.
+  * kwmrc isn't customized, remove it.
+  * switch kxkbrc to utf8.
+  * remove stale KDE session.
+  * .kde/Autostart isn't customized, remove it.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 22 Sep 2006 00:45:20 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  3 Oct 2006 14:46:53 +0200
 
 etcskel-kanotix (0.6.72) unstable; urgency=low
 

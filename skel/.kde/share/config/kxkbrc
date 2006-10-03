@@ -1,7 +1,5 @@
 [Layout]
 Additional=us,fr
-AdditionalEncodings=ISO8859-1,ISO8859-1
-Encoding=ISO8859-1
 Layout=de
 Model=pc105
 Options=
