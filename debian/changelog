@@ -1,3 +1,9 @@
+etcskel-kanotix (0.6.75) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  2 Nov 2006 21:12:14 +0100
+
 etcskel-kanotix (0.6.74) unstable; urgency=low
 
   * fix lintian errors.
