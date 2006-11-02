@@ -14,7 +14,7 @@ case "$1" in
 cat >/etc/profile.new <<EOF
 # /etc/profile
 umask 022
-PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/sbin:/usr/local/bin:/usr/games"
+PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/games"
 [ -e /usr/NX/bin ] && PATH="\$PATH:/usr/NX/bin"
 [ "\$UID" = "0" ] || PATH="\$PATH:."
 export PATH
