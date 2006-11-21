@@ -119,6 +119,7 @@ EOF
 	if [ "$FLL_DISTRO_MODE" == "live" ];then
 		echo "# This is very KANOTIX/live-specific"	>> /etc/profile
 		echo "alias su=\"sudo su\""			>> /etc/profile
+		echo "alias sux=\"sudo su\""			>> /etc/profile
 	fi
 
 		
