@@ -1,8 +1,8 @@
-etcskel-kanotix (0.7.1) UNRELEASED; urgency=low
+etcskel-kanotix (0.7.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * brown paper bag release, fix up infinite loop in postinst.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Nov 2006 14:06:12 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Nov 2006 16:11:13 +0100
 
 etcskel-kanotix (0.7.0) unstable; urgency=low
 
