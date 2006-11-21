@@ -114,21 +114,24 @@ alias mv="mv -i"
 alias cp="cp -i"
 alias la="ls -la --color=auto"
 alias ls="ls --color=auto"
-EOF
 
-		echo "# This is very KANOTIX/live-specific"	>> /etc/profile
-		echo "alias su=\"sudo su\""			>> /etc/profile
-		echo "alias sux=\"sudo sux\""			>> /etc/profile
+# This is very KANOTIX/live-specific
+alias su="sudo su"
+alias sux="sudo sux"
+EOF
 		
 		# populate /root/.profile and /root/.bashrc
 		install_from_default /usr/share/base-files/dot.profile   /root/.profile
 		install_from_default /usr/share/base-files/dot.bashrc    /root/.bashrc
 
 		if ! grep -q bash_completion /root/.bashrc; then
-			echo "# changed by KANOTIX"			>> /root/.bashrc
-			echo "if [ -f /etc/bash_completion ]; then"	>> /root/.bashrc
-			echo "	. /etc/bash_completion"			>> /root/.bashrc
-			echo "fi"					>> /root/.bashrc
+			cat >> /root/.bashrc << EOF
+# changed by KANOTIX
+# enable bash completion in interactive shells
+if [ -f /etc/bash_completion ]; then
+	. /etc/bash_completion"			>> /root/.bashrc
+fi
+EOF
 		fi
 
 		;;

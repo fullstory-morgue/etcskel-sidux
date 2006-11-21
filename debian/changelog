@@ -1,4 +1,4 @@
-etcskel-kanotix (0.7.0) UNRELEASED; urgency=low
+etcskel-kanotix (0.7.0) unstable; urgency=low
 
   [ Stefan Lippers-Hollmann ]
   * rework etcskel-kanotix.postinst, try to stay as debian compatble as
@@ -9,7 +9,7 @@ etcskel-kanotix (0.7.0) UNRELEASED; urgency=low
   [ Kel Modderman ]
   * Adjust kickerrc for firefox -> iceweasel transition.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Nov 2006 13:18:23 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Nov 2006 14:04:45 +0100
 
 etcskel-kanotix (0.6.74) unstable; urgency=low
 
