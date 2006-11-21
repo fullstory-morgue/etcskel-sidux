@@ -116,11 +116,9 @@ alias la="ls -la --color=auto"
 alias ls="ls --color=auto"
 EOF
 
-		if [ "$FLL_DISTRO_MODE" == "live" ];then
-			echo "# This is very KANOTIX/live-specific"	>> /etc/profile
-			echo "alias su=\"sudo su\""			>> /etc/profile
-			echo "alias sux=\"sudo sux\""			>> /etc/profile
-		fi
+		echo "# This is very KANOTIX/live-specific"	>> /etc/profile
+		echo "alias su=\"sudo su\""			>> /etc/profile
+		echo "alias sux=\"sudo sux\""			>> /etc/profile
 		
 		# populate /root/.profile and /root/.bashrc
 		install_from_default /usr/share/base-files/dot.profile   /root/.profile
