@@ -18,7 +18,7 @@ install_from_default()
 
 case "$1" in
 	configure)
-		if dpkg --compare-versions "$2" lt 0.7; then
+		if dpkg --compare-versions "$2" lt 0.7.6; then
 			rm -f	/etc/inputrc \
 				/etc/bash.bashrc \
 				/root/.bashrc \
@@ -68,8 +68,8 @@ EOF
 		fi
 		
 		# /etc/profile, update versions modified by us under all circumstances
-		grep -q '^\# changed by KANOTIX' /etc/profile 2> /dev/null ||	rm -f /etc/profile
-		grep -q '/etc/sysconfig/i18n' /etc/profile 2> /dev/null ||	rm -f /etc/profile
+		grep -q '^\# changed by KANOTIX' /etc/profile 2> /dev/null &&	rm -f /etc/profile
+		grep -q '/etc/sysconfig/i18n' /etc/profile 2> /dev/null &&	rm -f /etc/profile
 		install_from_default /usr/share/base-files/profile /etc/profile
 		
 		cat >> /etc/profile << EOF
