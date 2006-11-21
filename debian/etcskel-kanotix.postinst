@@ -1,61 +1,112 @@
-#! /bin/bash
+#!/bin/sh
+set -e
 
 # override tool behaviour through distro-defaults
 FLL_DISTRO_MODE="installed"
 if [ -r /etc/default/distro ]; then
-	source /etc/default/distro
+	. /etc/default/distro
 fi
 
-[ ! "$FLL_DISTRO_MODE" == "live" ] && exit 0
+[ ! "$FLL_DISTRO_MODE" = "live" ] && exit 0
+
+install_from_default()
+{
+	if [ ! -f "$2" ]; then
+		cp -p "$1" "$2"
+	fi
+}
 
 case "$1" in
-    configure)
-    echo "Replacing /etc/profile, /etc/bash.bashrc and /etc/inputrc"
-cat >/etc/profile.new <<EOF
-# /etc/profile
-umask 022
-PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/games"
-[ -e /usr/NX/bin ] && PATH="\$PATH:/usr/NX/bin"
-[ "\$UID" = "0" ] || PATH="\$PATH:."
-export PATH
+	configure)
+		if dpkg --compare-versions "$2" lt 0.7; then
+			rm -f	/etc/inputrc \
+				/etc/bash.bashrc \
+				/root/.bashrc \
+				/root/.profile
+			
+			# revert /etc/bash.bashrc
+			cat > /etc/bash.bashrc << EOF
+# System-wide .bashrc file for interactive bash(1) shells.
+
+# To enable the settings / commands in this file for login shells as well,
+# this file has to be sourced in /etc/profile.
+
+# If not running interactively, don't do anything
+[ -z "\$PS1" ] && return
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "\$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=\$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, overwrite the one in /etc/profile)
+PS1='\${debian_chroot:+(\$debian_chroot)}\u@\h:\w\\$ '
+
+# Commented out, don't overwrite xterm -T "title" -n "icontitle" by default.
+# If this is an xterm set the title to user@host:dir
+#case "\$TERM" in
+#xterm*|rxvt*)
+#    PROMPT_COMMAND='echo -ne "\033]0;\${USER}@\${HOSTNAME}: \${PWD}\007"'
+#    ;;
+#*)
+#    ;;
+#esac
+
+# enable bash completion in interactive shells
+#if [ -f /etc/bash_completion ]; then
+#    . /etc/bash_completion
+#fi
+EOF
+			chmod 644 /etc/bash.bashrc
+
+			# revert /etc/inputrc
+			install_from_default /usr/share/readline/inputrc /etc/inputrc
+		fi
+		
+		# /etc/profile, update versions modified by us under all circumstances
+		grep -q '^\# changed by KANOTIX' ||	rm -f /etc/profile
+		grep -q '/etc/sysconfig/i18n' ||	rm -f /etc/profile
+		install_from_default /usr/share/base-files/profile /etc/profile
+		
+		cat >> /etc/profile << EOF
+# changed by KANOTIX
 # Set LOCALE
 if [ -f /etc/sysconfig/i18n ]; then
-    . /etc/sysconfig/i18n
-    [ -n "\$LANG" ] || LANG="de_DE@euro"
-    export LANG
-    [ -n "\$LC_CTYPE" ] && export LC_CTYPE || unset LC_CTYPE
-    [ -n "\$LC_COLLATE" ] && export LC_COLLATE || unset LC_COLLATE
-    [ -n "\$LC_MESSAGES" ] && export LC_MESSAGES || unset LC_MESSAGES
-    [ -n "\$LC_NUMERIC" ] && export LC_NUMERIC || unset LC_NUMERIC
-    [ -n "\$LC_MONETARY" ] && export LC_MONETARY || unset LC_MONETARY
-    [ -n "\$LC_TIME" ] && export LC_TIME || unset LC_TIME
-    [ -n "\$LC_ALL" ] && export LC_ALL || unset LC_ALL
-    [ -n "\$LANGUAGE" ] && export LANGUAGE || unset LANGUAGE
-    [ -n "\$LINGUAS" ] && export LINGUAS || unset LINGUAS
-    [ -n "\$_XKB_CHARSET" ] && export _XKB_CHARSET || unset _XKB_CHARSET
+	. /etc/sysconfig/i18n
+	[ -n "\$LANG" ] || LANG="de_DE@euro"
+	export LANG
+	[ -n "\$LC_CTYPE" ] && export LC_CTYPE || unset LC_CTYPE
+	[ -n "\$LC_COLLATE" ] && export LC_COLLATE || unset LC_COLLATE
+	[ -n "\$LC_MESSAGES" ] && export LC_MESSAGES || unset LC_MESSAGES
+	[ -n "\$LC_NUMERIC" ] && export LC_NUMERIC || unset LC_NUMERIC
+	[ -n "\$LC_MONETARY" ] && export LC_MONETARY || unset LC_MONETARY
+	[ -n "\$LC_TIME" ] && export LC_TIME || unset LC_TIME
+	[ -n "\$LC_ALL" ] && export LC_ALL || unset LC_ALL
+	[ -n "\$LANGUAGE" ] && export LANGUAGE || unset LANGUAGE
+	[ -n "\$LINGUAS" ] && export LINGUAS || unset LINGUAS
+	[ -n "\$_XKB_CHARSET" ] && export _XKB_CHARSET || unset _XKB_CHARSET
 
-    if [ -n "\$SYSFONTACM" ]; then
-	case \$SYSFONTACM in
-	    iso01*|iso02*|iso15*|koi*|latin2-ucw*)
-		if [ "\$TERM" = "linux" ]; then
-		    if ls -l /proc/\$\$/fd/0 2>/dev/null | grep -- '-> /dev/tty[0-9]*\$' >/dev/null 2>&1; then
-			echo -n -e '\033(K' > /proc/\$\$/fd/0
-		    fi
-		fi
-		;;
-	esac
-    fi
-    unset SYSFONTACM
+	if [ -n "\$SYSFONTACM" ]; then
+		case \$SYSFONTACM in
+			iso01*|iso02*|iso15*|koi*|latin2-ucw*)
+				if [ "\$TERM" = "linux" ]; then
+					if ls -l /proc/\$\$/fd/0 2>/dev/null | grep -- '-> /dev/tty[0-9]*\$' >/dev/null 2>&1; then
+						echo -n -e '\033(K' > /proc/\$\$/fd/0
+					fi
+				fi
+				;;
+		esac
+	fi
+	unset SYSFONTACM
 fi
 # END LOCALE
-# enable bash completion in interactive shells
-[ "\$PS1" -a -f /etc/bash_completion ] && . /etc/bash_completion
-TTY=\$(tty)
-TTY=\${TTY##*/}
-[ -n "\$TTY" ] && PS1="\[[1;36m\]\u@\$TTY[\W]\\\\\$\[[0;39m\] " || PS1="\[[1;36m\][\W]\u\[[0;39m\] "
+
+# alias definitions 
 alias ..="cd .."
-alias which="type -path"
-alias where="type -all"
 alias ll="ls -l --color=auto"
 alias l="ls -a --color=auto"
 alias rm="rm -i"
@@ -64,52 +115,31 @@ alias cp="cp -i"
 alias la="ls -la --color=auto"
 alias ls="ls --color=auto"
 EOF
-if [ "$FLL_DISTRO_MODE" == "live" ];then
-	echo "# This is very KANOTIX-specific"	>> /etc/profile.new
-	echo "alias su=\"sudo su\""		>> /etc/profile.new
-fi
-chmod 644 /etc/profile.new ; mv -f /etc/profile.new /etc/profile
-cat >/etc/bash.bashrc.new <<EOF
-# /etc/bash.bashrc
-[ -f /etc/profile ] && . /etc/profile
-EOF
-chmod 644 /etc/bash.bashrc.new ; mv -f /etc/bash.bashrc.new /etc/bash.bashrc
-cp /etc/bash.bashrc /etc/skel/.bashrc
-cat >/etc/inputrc.new <<EOF
-# /etc/inputrc
-# set bell-style visible
-set meta-flag on
-set input-meta on
-set output-meta on
-set convert-meta off
 
-# This is needed for old broken term apps, but may disturb the behaviour of
-# some old apps on AIX, ie. screen in xterm
-#"\\e[3~": delete-char
+	if [ "$FLL_DISTRO_MODE" == "live" ];then
+		echo "# This is very KANOTIX/live-specific"	>> /etc/profile
+		echo "alias su=\"sudo su\""			>> /etc/profile
+	fi
 
-# Home and End of application keypad and cursor of xterm
-# sucks in dselect
-"\\eOH":         beginning-of-line
-"\\eOF":         end-of-line
-"\\e[H":         beginning-of-line
-"\\e[F":         end-of-line
-"\\e[1~":         beginning-of-line
-"\\e[4~":         end-of-line
-"\\e[7~":         beginning-of-line
-"\\e[8~":         end-of-line
-EOF
-chmod 644 /etc/inputrc.new ; mv -f /etc/inputrc.new /etc/inputrc
-echo "Done."
-    ;;
+		
+		# populate /root/.profile and /root/.bashrc
+		install_from_default /usr/share/base-files/dot.profile   /root/.profile
+		install_from_default /usr/share/base-files/dot.bashrc    /root/.bashrc
 
-    abort-upgrade|abort-remove|abort-deconfigure)
+		if ! grep -q bash_completion /root/.bashrc; then
+			echo "# changed by KANOTIX"			>> /root/.bashrc
+			echo "if [ -f /etc/bash_completion ]; then"	>> /root/.bashrc
+			echo "	. /etc/bash_completion"			>> /root/.bashrc
+			echo "fi"					>> /root/.bashrc
+		fi
 
-    ;;
-
-    *)
-        echo "postinst called with unknown argument \`$1'" >&2
-        exit 0
-    ;;
+		;;
+	abort-upgrade|abort-remove|abort-deconfigure)
+		;;
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 0
+		;;
 esac
 
 # dh_installdeb will replace this with shell code automatically
@@ -118,3 +148,5 @@ esac
 #DEBHELPER#
 
 exit 0
+
+

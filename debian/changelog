@@ -1,12 +1,14 @@
 etcskel-kanotix (0.6.75) UNRELEASED; urgency=low
 
   [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+  * rework etcskel-kanotix.postinst, try to stay as debian compatble as
+    possible.
+  * add alias sux="sudo sux", remove it in knx-installer again.
 
   [ Kel Modderman ]
   * Adjust kickerrc for firefox -> iceweasel transition.
 
- -- Kel Modderman <kelmo@kanotixguide.org>  Tue, 21 Nov 2006 20:47:27 +1000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Nov 2006 13:18:23 +0100
 
 etcskel-kanotix (0.6.74) unstable; urgency=low
 

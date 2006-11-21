@@ -7,7 +7,8 @@ Standards-Version: 3.7.2
 
 Package: etcskel-kanotix
 Architecture: all
-Depends: distro-defaults, kanotix-su
+Depends: distro-defaults, kanotix-su, readline-common
+Recommends: knx-installer
 Description: Skeleton files for all user
  set useful preferences for new users.
 
