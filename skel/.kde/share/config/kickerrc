@@ -96,10 +96,10 @@ DesktopFile=childpanelextension.desktop
 UserHidden=0
 
 [ServiceButton_1]
-DesktopFile=/usr/share/applications/mozilla-firefox.desktop
+DesktopFile=/usr/share/applications/firefox.desktop
 FreeSpace=0
 FreeSpace2=0
-StorageId=firefox.desktop
+StorageId=iceweasel.desktop
 
 [URLButton_1]
 FreeSpace=0
