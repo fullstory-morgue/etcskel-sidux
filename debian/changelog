@@ -1,9 +1,10 @@
-etcskel-kanotix (0.6.75) UNRELEASED; urgency=low
+etcskel-kanotix (0.7.0) UNRELEASED; urgency=low
 
   [ Stefan Lippers-Hollmann ]
   * rework etcskel-kanotix.postinst, try to stay as debian compatble as
     possible.
   * add alias sux="sudo sux", remove it in knx-installer again.
+  * bump version to 0.7.0.
 
   [ Kel Modderman ]
   * Adjust kickerrc for firefox -> iceweasel transition.
