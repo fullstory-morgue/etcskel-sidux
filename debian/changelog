@@ -2,7 +2,9 @@ etcskel-kanotix (0.7.7) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Nov 2006 17:02:07 +0100
+  * Initial sidux version
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Thu, 30 Nov 2006 18:48:17 +0100
 
 etcskel-kanotix (0.7.6) unstable; urgency=low
 
