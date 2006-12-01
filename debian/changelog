@@ -2,9 +2,11 @@ etcskel-kanotix (0.7.7) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
+  * added favicon to the mozilla bookmarks
+
   * Initial sidux version
 
- -- Joaquim Boura <x-un-i@sidux.com>  Thu, 30 Nov 2006 18:48:17 +0100
+ -- Joaquim Boura <x-un-i@sidux.com>  Fri,  1 Dec 2006 17:12:10 +0100
 
 etcskel-kanotix (0.7.6) unstable; urgency=low
 
