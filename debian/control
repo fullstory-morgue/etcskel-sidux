@@ -2,18 +2,20 @@ Source: etcskel-sidux
 Section: misc
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 5.0.0)
+Build-Depends: cdbs, debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: etcskel-sidux
 Architecture: all
 Depends: distro-defaults, su-me, readline-common
 Recommends: knx-installer
+Conflicts: etcskel-kanotix
 Description: Skeleton files for all user
  set useful preferences for new users.
 
 Package: user-profile-sidux
 Architecture: all
 Depends: distro-defaults, su-me
+Conflicts: user-profile-kanotix
 Description: Skeleton files for the Sidux default user
  set useful preferences for new users.

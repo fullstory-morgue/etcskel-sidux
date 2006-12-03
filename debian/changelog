@@ -1,12 +1,13 @@
-etcskel-kanotix (0.7.7) UNRELEASED; urgency=low
+etcskel-sidux (0.7.7) unstable; urgency=low
 
-  * NOT RELEASED YET
-
+  [ Joaquim Boura ]
   * added favicon to the mozilla bookmarks
-
   * Initial sidux version
 
- -- Joaquim Boura <x-un-i@sidux.com>  Fri,  1 Dec 2006 17:12:10 +0100
+  [ Stefan Lippers-Hollmann ]
+  * add conflicts.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 02:16:57 +0100
 
 etcskel-kanotix (0.7.6) unstable; urgency=low
 
