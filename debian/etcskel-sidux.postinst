@@ -68,7 +68,7 @@ EOF
 		fi
 		
 		# /etc/profile, update versions modified by us under all circumstances
-		grep -q '^\# changed by Sidux' /etc/profile 2> /dev/null &&	rm -f /etc/profile
+		grep -q '^\# changed by sidux' /etc/profile 2> /dev/null &&	rm -f /etc/profile
 		grep -q '/etc/sysconfig/i18n' /etc/profile 2> /dev/null &&	rm -f /etc/profile
 		install_from_default /usr/share/base-files/profile /etc/profile
 		

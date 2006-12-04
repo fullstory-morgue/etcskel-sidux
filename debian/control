@@ -17,5 +17,5 @@ Package: user-profile-sidux
 Architecture: all
 Depends: distro-defaults, su-me
 Conflicts: user-profile-kanotix
-Description: Skeleton files for the Sidux default user
+Description: Skeleton files for the sidux default user
  set useful preferences for new users.
