@@ -1,3 +1,9 @@
+etcskel-sidux (0.7.11) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 11 Dec 2006 00:44:33 +0100
+
 etcskel-sidux (0.7.10) unstable; urgency=low
 
   * remove broken KDE preconfig for now, a new one needs to be created from
