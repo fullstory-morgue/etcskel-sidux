@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=Emails lesen und verfassen
+Comment[de]=Emails lesen und verfassen
+Exec=icedove
+GenericName=
+GenericName[de]=
+Icon=xfmail
+MimeType=
+Name=Icedove Mail Client
+Name[de]=Icedove Mail Client
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

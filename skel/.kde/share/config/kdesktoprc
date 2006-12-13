@@ -1,0 +1,75 @@
+[Background Common]
+CommonDesktop=true
+DeskNum=0
+
+[Colors]
+CurrentPalette=Web-Farben
+
+[Desktop Icons]
+Preview=imagethumbnail
+ShowHidden=false
+
+[Desktop0]
+BackgroundMode=Flat
+BlendBalance=100
+BlendMode=NoBlending
+ChangeInterval=60
+Color1=0,48,130
+Color2=108,139,185
+CurrentWallpaperName=
+LastChange=0
+MinOptimizationDepth=1
+MultiWallpaperMode=NoMulti
+Pattern=
+Program=
+ReverseBlending=false
+UseSHM=false
+Wallpaper=$HOME/.kde/share/apps/kthememanager/themes/Sidux01-1/wallpapers/desktop/sidux-whirl3.jpg
+WallpaperList=
+WallpaperMode=ScaleAndCrop
+
+[FMSettings]
+NormalTextColor=255,255,255
+ShowFileTips=true
+UnderlineLinks=false
+
+[General]
+AutoLineUpIcons=true
+Enabled=true
+SetVRoot=false
+
+[KFileDialog Settings]
+Automatic Preview=true
+Autoplay sounds=true
+Recent Files=
+
+[Media]
+enabled=true
+exclude=media/hdd_mounted,media/floppy5_unmounted,media/cdrom_unmounted,media/floppy_unmounted,media/hdd_unmounted
+
+[Menubar]
+ShowMenubar=false
+
+[MiniCli]
+TerminalApps=ls
+
+[Mouse Buttons]
+Left=
+Middle=WindowListMenu
+Right=DesktopMenu
+WheelSwitchesWorkspace=false
+
+[Notification Messages]
+ConfirmDelete=true
+
+[Open-with settings]
+CompletionMode=5
+History=
+
+[ScreenSaver]
+Saver=
+
+[Version]
+KDEVersionMajor=3
+KDEVersionMinor=5
+KDEVersionRelease=5

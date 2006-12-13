@@ -1,0 +1,160 @@
+<!DOCTYPE ktheme>
+<ktheme version="1" >
+  <general/>
+  <desktop number="0" common="1" >
+    <mode id="Flat" />
+    <color1 rgb="#000000" />
+    <color2 rgb="#6c8bb9" />
+    <blending mode="NoBlending" balance="100" reverse="0" />
+    <pattern name="" />
+    <wallpaper mode="Scaled" url="theme:/wallpapers/desktop/sidux-whirl3.jpg" />
+  </desktop>
+  <screensaver name="" />
+  <icons name="crystalsvg" >
+    <Animated value="1" object="desktop" />
+    <DoublePixels value="0" object="desktop" />
+    <Size value="32" object="desktop" />
+    <ActiveColor rgb="#ffff66" object="desktop" />
+    <ActiveColor2 rgb="#000066" object="desktop" />
+    <ActiveEffect name="togamma" object="desktop" />
+    <ActiveSemiTransparent value="0" object="desktop" />
+    <ActiveValue value="1" object="desktop" />
+    <DefaultColor rgb="#ffffff" object="desktop" />
+    <DefaultColor2 rgb="#000000" object="desktop" />
+    <DefaultEffect name="none" object="desktop" />
+    <DefaultSemiTransparent value="0" object="desktop" />
+    <DefaultValue value="1" object="desktop" />
+    <DisabledColor rgb="#808080" object="desktop" />
+    <DisabledColor2 rgb="#333333" object="desktop" />
+    <DisabledEffect name="togray" object="desktop" />
+    <DisabledSemiTransparent value="0" object="desktop" />
+    <DisabledValue value="1" object="desktop" />
+    <Animated value="0" object="mainToolbar" />
+    <DoublePixels value="0" object="mainToolbar" />
+    <Size value="22" object="mainToolbar" />
+    <ActiveColor rgb="#ffff66" object="mainToolbar" />
+    <ActiveColor2 rgb="#000066" object="mainToolbar" />
+    <ActiveEffect name="none" object="mainToolbar" />
+    <ActiveSemiTransparent value="0" object="mainToolbar" />
+    <ActiveValue value="1" object="mainToolbar" />
+    <DefaultColor rgb="#ffffff" object="mainToolbar" />
+    <DefaultColor2 rgb="#000000" object="mainToolbar" />
+    <DefaultEffect name="none" object="mainToolbar" />
+    <DefaultSemiTransparent value="0" object="mainToolbar" />
+    <DefaultValue value="1" object="mainToolbar" />
+    <DisabledColor rgb="#808080" object="mainToolbar" />
+    <DisabledColor2 rgb="#333333" object="mainToolbar" />
+    <DisabledEffect name="togray" object="mainToolbar" />
+    <DisabledSemiTransparent value="0" object="mainToolbar" />
+    <DisabledValue value="1" object="mainToolbar" />
+    <Animated value="0" object="panel" />
+    <DoublePixels value="0" object="panel" />
+    <Size value="32" object="panel" />
+    <ActiveColor rgb="#ffff66" object="panel" />
+    <ActiveColor2 rgb="#000066" object="panel" />
+    <ActiveEffect name="togamma" object="panel" />
+    <ActiveSemiTransparent value="0" object="panel" />
+    <ActiveValue value="1" object="panel" />
+    <DefaultColor rgb="#ffffff" object="panel" />
+    <DefaultColor2 rgb="#000000" object="panel" />
+    <DefaultEffect name="none" object="panel" />
+    <DefaultSemiTransparent value="0" object="panel" />
+    <DefaultValue value="1" object="panel" />
+    <DisabledColor rgb="#808080" object="panel" />
+    <DisabledColor2 rgb="#333333" object="panel" />
+    <DisabledEffect name="togray" object="panel" />
+    <DisabledSemiTransparent value="0" object="panel" />
+    <DisabledValue value="1" object="panel" />
+    <Animated value="0" object="small" />
+    <DoublePixels value="0" object="small" />
+    <Size value="16" object="small" />
+    <ActiveColor rgb="#ffff66" object="small" />
+    <ActiveColor2 rgb="#000066" object="small" />
+    <ActiveEffect name="none" object="small" />
+    <ActiveSemiTransparent value="0" object="small" />
+    <ActiveValue value="1" object="small" />
+    <DefaultColor rgb="#ffffff" object="small" />
+    <DefaultColor2 rgb="#000000" object="small" />
+    <DefaultEffect name="none" object="small" />
+    <DefaultSemiTransparent value="0" object="small" />
+    <DefaultValue value="1" object="small" />
+    <DisabledColor rgb="#808080" object="small" />
+    <DisabledColor2 rgb="#333333" object="small" />
+    <DisabledEffect name="togray" object="small" />
+    <DisabledSemiTransparent value="0" object="small" />
+    <DisabledValue value="1" object="small" />
+    <Animated value="0" object="toolbar" />
+    <DoublePixels value="0" object="toolbar" />
+    <Size value="22" object="toolbar" />
+    <ActiveColor rgb="#ffff66" object="toolbar" />
+    <ActiveColor2 rgb="#000066" object="toolbar" />
+    <ActiveEffect name="none" object="toolbar" />
+    <ActiveSemiTransparent value="0" object="toolbar" />
+    <ActiveValue value="1" object="toolbar" />
+    <DefaultColor rgb="#ffffff" object="toolbar" />
+    <DefaultColor2 rgb="#000000" object="toolbar" />
+    <DefaultEffect name="none" object="toolbar" />
+    <DefaultSemiTransparent value="0" object="toolbar" />
+    <DefaultValue value="1" object="toolbar" />
+    <DisabledColor rgb="#808080" object="toolbar" />
+    <DisabledColor2 rgb="#333333" object="toolbar" />
+    <DisabledEffect name="togray" object="toolbar" />
+    <DisabledSemiTransparent value="0" object="toolbar" />
+    <DisabledValue value="1" object="toolbar" />
+  </icons>
+  <sounds>
+    <event url="" name="exitkde" object="global" />
+    <event url="theme:/sounds/KDE_Beep.ogg" name="notification" object="global" />
+    <event url="" name="startkde" object="global" />
+    <event url="theme:/sounds/KDE_Glass_Break.ogg" name="messageCritical" object="global" />
+    <event url="theme:/sounds/KDE_Chimes_2.ogg" name="messageInformation" object="global" />
+    <event url="theme:/sounds/KDE_Error_1.ogg" name="messageWarning" object="global" />
+    <event url="theme:/sounds/KDE_Vox_Ahem.ogg" name="messageboxQuestion" object="global" />
+  </sounds>
+  <colors contrast="7" >
+    <background rgb="#efefef" object="global" />
+    <selectBackground rgb="#678db2" object="global" />
+    <foreground rgb="#000000" object="global" />
+    <windowForeground rgb="#000000" object="global" />
+    <windowBackground rgb="#ffffff" object="global" />
+    <selectForeground rgb="#ffffff" object="global" />
+    <buttonBackground rgb="#dddfe4" object="global" />
+    <buttonForeground rgb="#000000" object="global" />
+    <linkColor rgb="#0000ee" object="global" />
+    <visitedLinkColor rgb="#52188b" object="global" />
+    <alternateBackground rgb="#edf4f9" object="global" />
+    <activeForeground rgb="#ffffff" object="kwin" />
+    <inactiveBackground rgb="#6d7681" object="kwin" />
+    <inactiveBlend rgb="#9daaba" object="kwin" />
+    <activeBackground rgb="#2b5e91" object="kwin" />
+    <activeBlend rgb="#6b91b8" object="kwin" />
+    <inactiveForeground rgb="#dddddd" object="kwin" />
+    <activeTitleBtnBg rgb="#dcdcdc" object="kwin" />
+    <inactiveTitleBtnBg rgb="#dcdcdc" object="kwin" />
+    <frame rgb="#efefef" object="kwin" />
+    <inactiveFrame rgb="#efefef" object="kwin" />
+    <handle rgb="#efefef" object="kwin" />
+    <inactiveHandle rgb="#efefef" object="kwin" />
+  </colors>
+  <cursors name="" />
+  <wm type="builtin" name="kwin3_plastik" >
+    <border size="1" />
+  </wm>
+  <konqueror>
+    <wallpaper url="theme:/wallpapers/konqueror/kde4ever.png" />
+    <bgcolor rgb="#000000" />
+  </konqueror>
+  <panel>
+    <transparent value="1" />
+  </panel>
+  <widgets name="qtcurve" />
+  <fonts>
+    <font value="Arial,11,-1,5,50,0,0,0,0,0" object="General" />
+    <fixed value="Courier New,11,-1,5,50,0,0,0,0,0" object="General" />
+    <toolBarFont value="Arial,11,-1,5,50,0,0,0,0,0" object="General" />
+    <menuFont value="Arial,11,-1,5,50,0,0,0,0,0" object="General" />
+    <activeFont value="Arial Black,11,-1,5,50,0,0,0,0,0" object="WM" />
+    <taskbarFont value="Arial Black,11,-1,5,50,0,0,0,0,0" object="General" />
+    <StandardFont value="Arial,12,-1,5,50,0,0,0,0,0" object="FMSettings" />
+  </fonts>
+</ktheme>

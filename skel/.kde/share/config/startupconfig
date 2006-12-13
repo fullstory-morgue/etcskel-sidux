@@ -1,0 +1,23 @@
+#! /bin/sh
+# kcminputrc Mouse cursorTheme ''
+kcminputrc_mouse_cursortheme="redglass"
+# kcminputrc Mouse cursorSize ''
+kcminputrc_mouse_cursorsize=""
+# kpersonalizerrc General FirstLogin true
+kpersonalizerrc_general_firstlogin="false"
+# ksplashrc KSplash Theme Default
+ksplashrc_ksplash_theme="Sidux-01"
+# kcmrandrrc Display ApplyOnStartup false
+kcmrandrrc_display_applyonstartup="false"
+# kcmrandrrc [Screen0]
+kcmrandrrc_screen0_height="1024"
+kcmrandrrc_screen0_reflectx="false"
+kcmrandrrc_screen0_reflecty="false"
+kcmrandrrc_screen0_refresh="54"
+kcmrandrrc_screen0_rotation="0"
+kcmrandrrc_screen0_width="1280"
+# kcmrandrrc [Screen1]
+# kcmrandrrc [Screen2]
+# kcmrandrrc [Screen3]
+# kcmfonts General forceFontDPI 0
+kcmfonts_general_forcefontdpi="0"

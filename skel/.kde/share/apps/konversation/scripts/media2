@@ -1,0 +1,194 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my $port=shift;
+my $server=shift;
+my $target=shift;
+
+# Variables
+my $amarok;
+my $kaffeine;
+my $juk;
+my $noatun;
+my $title;
+my $artist;
+my $album;
+my $error;
+my $musichar;
+my $pid;
+my $encoding;
+
+sub check_running 
+{
+    my $application=shift;
+    
+    if (`dcop $application`)
+    {
+	return 1;
+    }
+    else
+    {
+	return 0;
+    }
+}
+
+sub pretty_print
+{
+    my $title=shift;
+    my $artist=shift;
+    my $album=shift;
+
+    utf8::decode($title);
+    utf8::decode($artist);
+    utf8::decode($album);
+    
+    # Emulated backticks using secure exec call
+    die "Can't fork: $!" unless defined($pid = open(KID, "-|"));
+    if ($pid) # parent
+    {
+	$encoding = <KID>;
+	chomp $encoding;
+	close KID;
+    }
+    else {
+	exec 'dcop', 'konversation', 'Konversation', 'getChannelEncoding', $server, $target; 
+    }
+    
+    if(($ENV{"LANG"} =~ /UTF-8$/ || $ENV{"LC_ALL"} =~ /UTF-8$/) && ($encoding eq "utf8") )
+    {
+	$musichar="*";
+    }
+    else
+    {
+	$musichar="*";
+    }
+	
+    if($artist && $album && $artist ne $album)
+    {
+	    return "/me listening to $musichar$title$musichar by $artist from $musichar$album$musichar";
+    }
+    elsif($artist)
+    {
+	return "/me listening to $musichar$title$musichar by $artist";
+    }
+    elsif($album)
+    {
+	return "/me listening to $musichar$title$musichar from $musichar$album$musichar";
+    }
+    else
+    {
+	return "/me listening to $musichar$title$musichar";
+    }
+}
+
+$amarok=check_running("amarok");
+$juk=check_running("juk");
+$kaffeine=check_running("kaffeine");
+$noatun=check_running("noatun");
+
+if($amarok)
+{
+    $title=`dcop amarok player title`;
+    $artist=`dcop amarok player artist`;
+    $album=`dcop amarok player album`;
+       
+    chomp $title;
+    chomp $artist;
+    chomp $album;
+
+    if($title)
+    {
+	my $string = pretty_print($title,$artist,$album)." ";
+	exec 'dcop', $port, 'Konversation', 'say', $server, $target, $string;
+    }
+    else
+    {
+	$error="amaroK";
+    }
+}
+
+if($juk)
+{
+    $title=`dcop juk Player trackProperty Title`;
+    $artist=`dcop juk Player trackProperty Artist`;
+    $album=`dcop juk Player trackProperty Album`;
+
+    chomp $title;
+    chomp $artist;
+    chomp $album;
+    
+    if($title)
+    {
+	my $string = pretty_print($title,$artist,$album)." [JuK]";
+	exec 'dcop', $port, 'Konversation', 'say', $server, $target, $string;
+    }
+    else
+    {
+	if($error)
+	{
+	    $error=join(',',$error,"JuK");
+	}
+	else
+	{
+	    $error="JuK";
+	}
+    }
+}
+
+if($kaffeine)
+{
+    my $string=`dcop kaffeine KaffeineIface title`;
+    chomp $string;
+    
+    if($string)
+    {
+	utf8::decode($string);
+	exec 'dcop', $port, 'Konversation', 'say', $server, $target, "/me spielt  * $string * \[Kaffeine\]";
+    }
+    else
+    {
+	if($error)
+	{
+	    $error=join(',',$error,"Kaffeine");
+	}
+        else
+        {
+            $error="Kaffeine";
+        }
+    }
+}
+
+if($noatun)
+{
+    my $string=`dcop noatun Noatun title`;
+    chomp $string;
+
+    if($string)
+    {
+	utf8::decode($string);
+	exec 'dcop', $port, 'Konversation', 'say', $server, $target, "/me spielt * $string * \[Noatun\]";
+    }
+    else
+    {
+	if($error)
+	{
+	    $error=join(',',$error,"Noatun");
+	}
+        else
+        {
+            $error="Noatun";
+        }
+    }
+}
+
+if(!$amarok && !$juk && !$kaffeine && !$noatun)
+{
+	exec 'dcop', $port, 'Konversation', 'error', 'No supported media player is running';
+}
+
+if($error)
+{
+	exec 'dcop', $port, 'Konversation', 'error', "Nothing is playing in $error";
+}
