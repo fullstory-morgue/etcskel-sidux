@@ -1,9 +1,8 @@
-etcskel-sidux (0.7.11) UNRELEASED; urgency=low
+etcskel-sidux (0.7.11) unstable; urgency=low
 
-  * NOT RELEASED YET
   * remove klik support, it is becoming a seperate package now.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 00:52:55 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 00:57:23 +0100
 
 etcskel-sidux (0.7.10) unstable; urgency=low
 
