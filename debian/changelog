@@ -1,8 +1,9 @@
-etcskel-sidux (0.7.12) UNRELEASED; urgency=low
+etcskel-sidux (0.7.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * remove local ksplash definition.
+  * remove kanotix search engine.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 00:58:47 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Dec 2006 02:07:47 +0100
 
 etcskel-sidux (0.7.11) unstable; urgency=low
 
