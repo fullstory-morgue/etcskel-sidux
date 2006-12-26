@@ -1,9 +1,23 @@
-etcskel-sidux (0.7.13) UNRELEASED; urgency=low
+etcskel-sidux (0.7.13) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Joaquim Boura ]
   * all user profile files go to /usr/share/user-profile
 
- -- Joaquim Boura <x-un-i@sidux.com>  Sat, 23 Dec 2006 13:53:53 +0100
+  [Chris Hildebrandt ]
+  * added some chat clients to etcskel.
+
+  [ Stefan Lippers-Hollmann ]
+  * revert r2924 completely:
+    - remove skel/.bash_logout, skel/.bash_profile and skel/.bashrc again,
+      they're in conflict with bash's files.
+    - remove empty skel/.local/, it's created automatically - if really
+      needed.
+    - remove skel/.weechat/ again, these files are already in sidux-irc.
+    - remove skel/.xchat2/ again, these files are already in sidux-irc.
+    - remove empty skel/Desktop/, it's created automatically by KDE - create
+      it manually, if needed before that.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 26 Dec 2006 13:44:54 +0100
 
 etcskel-sidux (0.7.12) unstable; urgency=low
 
