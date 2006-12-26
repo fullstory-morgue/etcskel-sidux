@@ -1,0 +1,18 @@
+[Colors]
+CurrentPalette=
+
+[General]
+InitialHeight 768=608
+InitialWidth 1024=756
+SplitterSizes=175,575
+
+[HTML Settings]
+AutomaticDetectionLanguage=0
+
+[Index]
+IconSize=Medium
+ViewMode=Tree
+
+[KFileDialog Settings]
+Automatic Preview=true
+Recent Files=/usr/share/wallpapers/sidux.jpg

@@ -1,0 +1,21 @@
+[$Version]
+update_info=konsole.upd:kde2.2/r1,konsole.upd:kde3.0/r1
+
+[Desktop Entry]
+AllowResize=false
+BlinkingCursor=false
+CtrlDrag=true
+CutToBeginningOfLine=false
+EnableBidi=false
+LineSpacing=0
+MatchTabWinTitle=false
+SilenceSeconds=10
+TerminalSizeHint=false
+WarnQuit=true
+XonXoff=false
+has frame=true
+schema=Transparent_darkbg.schema
+wordseps=:@-./_~
+
+[TipOfDay]
+TipLastShown=2006,12,26,7,10,42

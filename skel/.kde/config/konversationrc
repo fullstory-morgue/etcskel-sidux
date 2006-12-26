@@ -1,0 +1,63 @@
+[$Version]
+update_info=konversation.upd:0.20-customfonts,konversation.upd:0.20-quickbuttons,konversation.upd:0.19-notifylists,konversation.upd:0.19-appearance,konversation.upd:0.19-browser,konversation.upd:0.19-flags,konversation.upd:0.19-highlightcolors,konversation.upd:0.19-osdcolors,konversation.upd:0.19-sortorder,konversation.upd:0.19-colors,konversation.upd:0.19-generaloptions,konversation.upd:0.19-cleanup-themes,konversation.upd:0.19-cleanup-notifylist,konversation.upd:0.19-cleanup-dcc,konversation.upd:0.19-cleanup-colors,konversation.upd:0.19-cleanup-hilightlist,konversation.upd:0.19-cleanup-notificationmessages,konversation.upd:0.19-cleanup-ledcolors,konversation.upd:0.19-cleanup-kmditaskbar,konversation.upd:0.19-channelsplitter
+
+[Aliases]
+AliasList=bug /exec bug,cmd /exec cmd,fortune /exec fortune,gauge /exec gauge,google /exec google,infobash /exec infobash,kdeversion /exec kdeversion,mail /exec mail,media /exec media,audio /exec media audio,video /exec media video,qurl /exec qurl,sayclip /exec sayclip,sysinfo /exec sysinfo,uptime /exec uptime,weather /exec weather
+
+[Autoreplace List]
+Autoreplace0=1,o,\\[\\[([^\\s]+)\\]\\],http://en.wikipedia.org/wiki/Special:Search?go=Go&search=%1#
+Autoreplace1=1,o,(BUG:|bug:)([0-9]+),http://bugs.kde.org/show_bug.cgi?id=%2#
+
+[Button List]
+Button0=Op,/OP %u%n
+Button1=DeOp,/DEOP %u%n
+Button2=WhoIs,/WHOIS %s,%%u%n
+Button3=Version,/CTCP %s,%%u VERSION%n
+Button4=Kick,/KICK %u%n
+Button5=Ban,/BAN %u%n
+Button6=Part,/PART %c Leaving...%n
+Button7=Quit,/QUIT Leaving...%n
+
+[Flags]
+ShowServerList=false
+
+[Identity 0]
+AwayMessage=/me is away: %s
+AwayNick=
+Bot=
+Codec=iso 8859-1
+Ident=sidux
+InsertRememberLineOnAway=false
+KickReason=User terminated!
+Name=Default Identity
+Nicknames=sidux,sidux_,sidux__
+PartReason=Konversation terminated!
+Password=
+PreShellCommand=
+Realname=\sUser
+ReturnMessage=/me is back.
+ShowAwayMessage=false
+
+[Notification Messages]
+ChannelListNoServerSelected=1
+ChannelListWarning=1
+ClearLogfileQuestion=1
+CloseQueryAfterIgnore=1
+HideMenuBarWarning=1
+IgnoreNick=1
+Invitation=1
+LargePaste=1
+QuitChannelTab=1
+QuitQueryTab=1
+QuitServerTab=1
+ReconnectDifferentServer=1
+RemoveDCCReceivedFile=1
+SaveLogfileNote=1
+UnignoreNick=1
+systemtrayquitKonversation=1
+
+[ServerListDialog]
+Size=512,307
+
+[Themes]
+IconTheme=classic

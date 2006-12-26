@@ -1,0 +1,5 @@
+[Settings]
+DontPreview=exrthumbnail,cursorthumbnail,djvuthumbnail,fontthumbnail,textthumbnail,htmlthumbnail
+PreviewsEnabled=true
+SortDirsFirst=true
+SortingCriterion=sort_nci
