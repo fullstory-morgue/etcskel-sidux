@@ -1,8 +1,9 @@
-etcskel-sidux (0.7.15) UNRELEASED; urgency=low
+etcskel-sidux (0.7.15) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * remove ktips from startup.
+  * more kdeglobals clean-up.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Dec 2006 23:43:35 +0100
+ -- Chris Hildebrandt <webmaster@gsidux.com>  Sat, 30 Dec 2006 11:57:36 +0100
 
 etcskel-sidux (0.7.14) unstable; urgency=low
 
