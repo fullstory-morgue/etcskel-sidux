@@ -1,3 +1,9 @@
+etcskel-sidux (0.7.16) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 30 Dec 2006 14:59:02 +0100
+
 etcskel-sidux (0.7.15) unstable; urgency=low
 
   * remove ktips from startup.
