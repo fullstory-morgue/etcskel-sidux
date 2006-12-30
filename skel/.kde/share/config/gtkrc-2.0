@@ -1,8 +1,8 @@
-# erstellt von KDE, Fr Dez 29 18:36:56 2006
+# created by KDE, Sat Dec 30 11:18:09 2006
 #
-# Wenn Sie nicht möchten, dass KDE Ihre GTK-Einstellungen überschreibt,
-# wählen Sie bitte Erscheinungsbild & Design -> Farben im Kontrollzentrum und deaktivieren Sie das
-# "Ankreuzfeld "Farben auf Nicht-KDE-Programme anwenden".
+# If you do not want KDE to override your GTK settings, select
+# Appearance & Themes -> Colors in the Control Center and disable the checkbox
+# "Apply colors to non-KDE applications"
 #
 #
 style "default"

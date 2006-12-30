@@ -41,7 +41,7 @@ SetVRoot=false
 [KFileDialog Settings]
 Automatic Preview=true
 Autoplay sounds=true
-Recent Files=
+Recent Files=/usr/share/wallpapers/sidux.jpg
 
 [Media]
 enabled=true

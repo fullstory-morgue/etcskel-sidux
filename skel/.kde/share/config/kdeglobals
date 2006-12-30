@@ -29,7 +29,7 @@ History Items=
 StandardFont=
 
 [General]
-BrowserApplication=menu-xdg-X-Debian-Apps-Net-firefox.desktop
+BrowserApplication=menu-xdg-X-Debian-Apps-Net-konqbrowser.desktop
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=rgb
@@ -55,7 +55,7 @@ windowForeground=0,0,0
 [Global Shortcuts]
 Activate Window Demanding Attention=default(Alt+Ctrl+A)
 Block Global Shortcuts=none
-Defaults timestamp=Dec 20 200610:29:10
+Defaults timestamp=Dec 29 200620:12:46
 Desktop Screenshot=default(Ctrl+Print)
 Enable/Disable Clipboard Actions=default(Alt+Ctrl+X)
 Halt without Confirmation=none
@@ -186,9 +186,10 @@ macStyle=false
 [KFileDialog Settings]
 Automatically select filename extension=false
 Height 1024=957
+Height 768=204
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Recent URLs=
+Recent URLs=/usr/share/wallpapers/
 Separate Directories=false
 Show Bookmarks=false
 Show Preview=false
@@ -199,6 +200,7 @@ Sort case insensitively=true
 Sort directories first=true
 Sort reversed=false
 View Style=Simple
+Width 1024=553
 Width 1280=1272
 
 [KSpell]
@@ -213,7 +215,7 @@ KSpell_RunTogether=0
 Gestures=false
 
 [Locale]
-Country=at
+Country=
 
 [MainToolbarIcons]
 ActiveColor=169,156,255
@@ -321,8 +323,8 @@ webdavs=false
 zip=false
 
 [Scan Settings]
-ScanDevice=epkowa:libusb:003:004
-SkipStartupAsk=true
+ScanDevice=
+SkipStartupAsk=false
 
 [SmallIcons]
 ActiveColor=169,156,255
