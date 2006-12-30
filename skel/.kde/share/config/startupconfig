@@ -6,7 +6,7 @@ kcminputrc_mouse_cursorsize=""
 # kpersonalizerrc General FirstLogin true
 kpersonalizerrc_general_firstlogin="false"
 # ksplashrc KSplash Theme Default
-ksplashrc_ksplash_theme="sidux-coffeewhirl"
+ksplashrc_ksplash_theme="sidux-2006"
 # kcmrandrrc Display ApplyOnStartup false
 kcmrandrrc_display_applyonstartup="false"
 # kcmrandrrc [Screen0]
