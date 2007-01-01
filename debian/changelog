@@ -4,9 +4,10 @@ etcskel-sidux (0.7.16) UNRELEASED; urgency=low
   * NOT RELEASED YET
 
   [ Andreas Weber ]
-  * konsolerc added 
+  * konsolerc added (.skel/.kde/share/config/konsolerc)
+  * arts diabled (.skel/.kde/share/config/kcmartsrc) 
 
- -- Andreas Weber <andreas@it-weber.com>  Mon,  1 Jan 2007 17:48:04 +0100
+ -- Andreas Weber <andreas@it-weber.com>  Mon,  1 Jan 2007 18:08:15 +0100
 
 etcskel-sidux (0.7.15) unstable; urgency=low
 
