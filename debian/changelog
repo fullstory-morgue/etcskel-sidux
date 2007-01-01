@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.16) UNRELEASED; urgency=low
+etcskel-sidux (0.7.16) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Andreas Weber ]
   * konsolerc added (.skel/.kde/share/config/konsolerc)
   * arts diabled (.skel/.kde/share/config/kcmartsrc) 
 
