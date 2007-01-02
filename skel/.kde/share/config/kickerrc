@@ -109,7 +109,7 @@ DesktopFile=childpanelextension.desktop
 UserHidden=0
 
 [ServiceButton_1]
-DesktopFile=/UNIONFS/usr/share/applications/kde/konsole.desktop
+DesktopFile=/usr/share/applications/kde/konsole.desktop
 FreeSpace2=0
 StorageId=kde-konsole.desktop
 
@@ -119,7 +119,7 @@ FreeSpace2=0
 StorageId=kde-konversation.desktop
 
 [ServiceButton_3]
-DesktopFile=/UNIONFS/usr/share/applications/kde/Home.desktop
+DesktopFile=/usr/share/applications/kde/Home.desktop
 FreeSpace2=0
 StorageId=kde-Home.desktop
 
