@@ -18,94 +18,12 @@ install_from_default()
 
 case "$1" in
 	configure)
-		if dpkg --compare-versions "$2" lt 0.7.6; then
-			rm -f	/etc/inputrc \
-				/etc/bash.bashrc \
-				/root/.bashrc \
-				/root/.profile
-			
-			# revert /etc/bash.bashrc
-			cat > /etc/bash.bashrc << EOF
-# System-wide .bashrc file for interactive bash(1) shells.
-
-# To enable the settings / commands in this file for login shells as well,
-# this file has to be sourced in /etc/profile.
-
-# If not running interactively, don't do anything
-[ -z "\$PS1" ] && return
-
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
-shopt -s checkwinsize
-
-# set variable identifying the chroot you work in (used in the prompt below)
-if [ -z "\$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
-    debian_chroot=\$(cat /etc/debian_chroot)
-fi
-
-# set a fancy prompt (non-color, overwrite the one in /etc/profile)
-PS1='\${debian_chroot:+(\$debian_chroot)}\u@\h:\w\\$ '
-
-# Commented out, don't overwrite xterm -T "title" -n "icontitle" by default.
-# If this is an xterm set the title to user@host:dir
-#case "\$TERM" in
-#xterm*|rxvt*)
-#    PROMPT_COMMAND='echo -ne "\033]0;\${USER}@\${HOSTNAME}: \${PWD}\007"'
-#    ;;
-#*)
-#    ;;
-#esac
-
-# enable bash completion in interactive shells
-#if [ -f /etc/bash_completion ]; then
-#    . /etc/bash_completion
-#fi
-EOF
-			chmod 644 /etc/bash.bashrc
-
-			# revert /etc/inputrc
-			install_from_default /usr/share/readline/inputrc /etc/inputrc
-		fi
-		
 		# /etc/profile, update versions modified by us under all circumstances
-		grep -q '^\# changed by sidux' /etc/profile 2> /dev/null &&	rm -f /etc/profile
-		grep -q '/etc/sysconfig/i18n' /etc/profile 2> /dev/null &&	rm -f /etc/profile
+		grep -q '^\# changed by sidux' /etc/profile 2> /dev/null && rm -f /etc/profile
 		install_from_default /usr/share/base-files/profile /etc/profile
 		
 		cat >> /etc/profile << EOF
-# changed by KANOTIX
-#I18N## Set LOCALE
-#I18N#if [ -f /etc/sysconfig/i18n ]; then
-#I18N#	. /etc/sysconfig/i18n
-#I18N#	[ -n "\$LANG" ] || LANG="de_DE@euro"
-#I18N#	export LANG
-#I18N#	[ -n "\$LC_CTYPE" ] && export LC_CTYPE || unset LC_CTYPE
-#I18N#	[ -n "\$LC_COLLATE" ] && export LC_COLLATE || unset LC_COLLATE
-#I18N#	[ -n "\$LC_MESSAGES" ] && export LC_MESSAGES || unset LC_MESSAGES
-#I18N#	[ -n "\$LC_NUMERIC" ] && export LC_NUMERIC || unset LC_NUMERIC
-#I18N#	[ -n "\$LC_MONETARY" ] && export LC_MONETARY || unset LC_MONETARY
-#I18N#	[ -n "\$LC_TIME" ] && export LC_TIME || unset LC_TIME
-#I18N#	[ -n "\$LC_ALL" ] && export LC_ALL || unset LC_ALL
-#I18N#	[ -n "\$LANGUAGE" ] && export LANGUAGE || unset LANGUAGE
-#I18N#	[ -n "\$LINGUAS" ] && export LINGUAS || unset LINGUAS
-#I18N#	[ -n "\$_XKB_CHARSET" ] && export _XKB_CHARSET || unset _XKB_CHARSET
-#I18N#
-#I18N#	if [ -n "\$SYSFONTACM" ]; then
-#I18N#		case \$SYSFONTACM in
-#I18N#			iso01*|iso02*|iso15*|koi*|latin2-ucw*)
-#I18N#				if [ "\$TERM" = "linux" ]; then
-#I18N#					if ls -l /proc/\$\$/fd/0 2>/dev/null | grep -- '-> /dev/tty[0-9]*\$' >/dev/null 2>&1; then
-#I18N#						echo -n -e '\033(K' > /proc/\$\$/fd/0
-#I18N#					fi
-#I18N#				fi
-#I18N#				;;
-#I18N#		esac
-#I18N#	fi
-#I18N#	unset SYSFONTACM
-#I18N#fi
-#I18N## END LOCALE
-
-# This is very KANOTIX/live-specific
+# changed by sidux
 alias su="sudo su"
 alias sux="sudo sux"
 EOF
@@ -116,7 +34,7 @@ EOF
 
 		if ! grep -q bash_completion /root/.bashrc; then
 			cat >> /root/.bashrc << EOF
-# changed by KANOTIX
+# changed by sidux
 # enable bash completion in interactive shells
 if [ -f /etc/bash_completion ]; then
 	. /etc/bash_completion
@@ -139,5 +57,4 @@ esac
 #DEBHELPER#
 
 exit 0
-
 
