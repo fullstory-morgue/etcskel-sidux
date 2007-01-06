@@ -26,6 +26,10 @@ case "$1" in
 # changed by sidux
 alias su="sudo su"
 alias sux="sudo sux"
+
+if [ -x /usr/bin/most ]; then
+	export PAGER=most
+fi
 EOF
 		
 		# populate /root/.profile and /root/.bashrc
