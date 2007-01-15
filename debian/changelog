@@ -1,3 +1,10 @@
+etcskel-sidux (0.7.21) unstable; urgency=low
+
+  * (hopefully) fix the konversation / konqueror default web browser issue
+    (untested).
+
+ -- Bernard Gray aka cleary <bernard.gray@gmail.com>  Mon, 15 Jan 2007 16:35:00 +1000
+
 etcskel-sidux (0.7.20) unstable; urgency=low
 
   * clean up template handling.
@@ -13,12 +20,6 @@ etcskel-sidux (0.7.19) unstable; urgency=low
   * changed to pc105 kb (after comparison with kanotix build)
 
  -- Bernard Gray aka cleary <bernard.gray@gmail.com>  Tue,  2 Jan 2007 16:22:30 +1000
-
-etcskel-sidux (0.7.18) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon,  1 Jan 2007 19:15:49 +0100
 
 etcskel-sidux (0.7.17) unstable; urgency=low
 
