@@ -1,3 +1,9 @@
+etcskel-sidux (0.7.22) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 15 Jan 2007 18:34:35 +0100
+
 etcskel-sidux (0.7.21) unstable; urgency=low
 
   * (hopefully) fix the konversation / konqueror default web browser issue
