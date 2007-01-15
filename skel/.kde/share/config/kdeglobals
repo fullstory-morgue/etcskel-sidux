@@ -29,7 +29,6 @@ History Items=
 StandardFont=
 
 [General]
-BrowserApplication=menu-xdg-X-Debian-Apps-Net-konqbrowser.desktop
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=rgb
