@@ -54,7 +54,7 @@ UserHidden=0
 [General]
 Alignment=0
 Applets=KMenuButton_1,ServiceMenuButton_1,WindowListButton_1,DesktopButton_1,URLButton_1,URLButton_3,URLButton_4,ServiceButton_1,ServiceMenuButton_2,Applet_1,Applet_2,Applet_3,Applet_4
-Applets2=KMenuButton_1,ServiceButton_3,ServiceButton_2,ServiceButton_1,Applet_1,Applet_2,Applet_3,Applet_4,Applet_5
+Applets2=KMenuButton_1,ServiceButton_1,ServiceButton_3,ServiceButton_2,Applet_1,Applet_2,Applet_3,Applet_4,Applet_5
 AutoHideAnimation=true
 AutoHideAnimationSpeed=100
 AutoHideDelay=3
@@ -114,9 +114,9 @@ FreeSpace2=0
 StorageId=kde-konsole.desktop
 
 [ServiceButton_2]
-DesktopFile=/usr/share/applications/kde/konversation.desktop
+DesktopFile=/usr/share/applications/kde/konqbrowser.desktop
 FreeSpace2=0
-StorageId=kde-konversation.desktop
+StorageId=StorageId=:konqbrowser.desktop
 
 [ServiceButton_3]
 DesktopFile=/usr/share/applications/kde/Home.desktop
