@@ -29,8 +29,12 @@ WallpaperList=
 WallpaperMode=Scaled
 
 [FMSettings]
+ItemTextBackground=invalid
 NormalTextColor=255,255,255
+ShadowEnabled=false
 ShowFileTips=true
+TextHeight=2
+TextWidth=0
 UnderlineLinks=false
 
 [General]
