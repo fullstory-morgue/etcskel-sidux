@@ -19,7 +19,7 @@ DisabledEffect=togray
 DisabledSemiTransparent=false
 DisabledValue=1
 DoublePixels=false
-Size=48
+Size=32
 
 [DirSelect Dialog]
 DirSelectDialog Size=540,450
