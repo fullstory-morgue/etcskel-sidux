@@ -80,7 +80,7 @@ ShowHideButtons=true
 ShowLeftHideButton=false
 ShowRightHideButton=false
 ShowToolTips=true
-Size=1
+Size=0
 SizePercentage=100
 TintColor=140,140,140
 TintValue=35
@@ -138,7 +138,7 @@ URLTile=solid_gray
 WindowListTile=solid_green
 
 [buttons]
-EnableIconZoom=true
+EnableIconZoom=false
 EnableTileBackground=false
 
 [menus]
