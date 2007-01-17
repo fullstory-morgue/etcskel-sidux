@@ -1,0 +1,6 @@
+[General]
+AlreadyStarted=true
+AutoStart=false
+
+[infoDialog]
+dbusNotRunning=true
