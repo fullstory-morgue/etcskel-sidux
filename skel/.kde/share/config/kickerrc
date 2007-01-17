@@ -37,12 +37,6 @@ FreeSpace2=1
 HeightForWidthHint=36
 WidthForHeightHint=160
 
-[Applet_5]
-ConfigFile=trash_panelapplet_9ppt4u3surgyfbgfwofg_rc
-DesktopFile=trashapplet.desktop
-FreeSpace2=1
-WidthForHeightHint=38
-
 [Colors]
 CurrentPalette=Definierte Farben
 
