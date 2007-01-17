@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.25) UNRELEASED; urgency=low
+etcskel-sidux (0.7.25) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Kel Modderman ]
   * Disable klipper.
   * Trash the trash can from kicker.
 
