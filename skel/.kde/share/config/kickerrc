@@ -116,7 +116,7 @@ StorageId=kde-konsole.desktop
 [ServiceButton_2]
 DesktopFile=/usr/share/applications/kde/konqbrowser.desktop
 FreeSpace2=0
-StorageId=StorageId=:konqbrowser.desktop
+StorageId=kde-konqbrowser.desktop
 
 [ServiceButton_3]
 DesktopFile=/usr/share/applications/kde/Home.desktop
