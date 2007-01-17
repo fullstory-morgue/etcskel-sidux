@@ -1,3 +1,9 @@
+etcskel-sidux (0.7.25) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 17 Jan 2007 01:11:08 +0100
+
 etcskel-sidux (0.7.24) unstable; urgency=low
 
   * fix paste error.
