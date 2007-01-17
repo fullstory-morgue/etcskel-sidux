@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.26) UNRELEASED; urgency=low
+etcskel-sidux (0.7.26) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Kel Modderman ]
   * Don't start kpowersave by default and don't complain about
     'dbus not running'
 
