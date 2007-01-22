@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Package: etcskel-sidux
 Architecture: all
 Depends: distro-defaults, su-me, readline-common
-Recommends: knx-installer
+Recommends: knx-installer, sidux-browser
 Conflicts: etcskel-kanotix
 Description: Skeleton files for all user
  set useful preferences for new users.

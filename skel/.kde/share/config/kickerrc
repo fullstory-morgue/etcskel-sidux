@@ -108,9 +108,9 @@ FreeSpace2=0
 StorageId=kde-konsole.desktop
 
 [ServiceButton_2]
-DesktopFile=/usr/share/applications/kde/konqbrowser.desktop
+DesktopFile=/usr/share/applnk/Internet/sidux-browser.desktop
 FreeSpace2=0
-StorageId=kde-konqbrowser.desktop
+StorageId=sidux-browser.desktop
 
 [ServiceButton_3]
 DesktopFile=/usr/share/applications/kde/Home.desktop

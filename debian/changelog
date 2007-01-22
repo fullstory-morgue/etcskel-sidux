@@ -1,8 +1,9 @@
-etcskel-sidux (0.7.28) UNRELEASED; urgency=low
+etcskel-sidux (0.7.28) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * move to sidux-browser.
+  * remove obsolete ~/tmp/.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 18 Jan 2007 16:28:45 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Jan 2007 12:05:55 +0100
 
 etcskel-sidux (0.7.27) unstable; urgency=low
 
