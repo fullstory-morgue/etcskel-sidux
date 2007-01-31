@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.31) UNRELEASED; urgency=low
+etcskel-sidux (0.7.31) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Kel Modderman ]
   * Silence kbluetoothdrc with some preseeding.
   * Disable klapdaemon applet, we use kpowersave.
 
