@@ -1,6 +1,6 @@
 [General]
 FirstStart=false
-Interfaces=eth0,eth1,eth2,ppp0,ppp1,ppp2,ra0,ra1,ra2,ath0,ath1,ath2,wlan0,wlan1,wlan2
+Interfaces=eth0,eth1,eth2,eth3,ppp0,ppp1,ppp2,ra0,ra1,ath0,ath1,wlan0,wlan1
 PollInterval=5
 ToolTipContent=12319965
 
@@ -19,6 +19,13 @@ IconSet=0
 NumCommands=0
 
 [Interface_eth2]
+CustomCommands=false
+HideWhenNotAvailable=true
+HideWhenNotExisting=true
+IconSet=0
+NumCommands=0
+
+[Interface_eth3]
 CustomCommands=false
 HideWhenNotAvailable=true
 HideWhenNotExisting=true
@@ -60,13 +67,6 @@ HideWhenNotExisting=true
 IconSet=3
 NumCommands=0
 
-[Interface_ra2]
-CustomCommands=false
-HideWhenNotAvailable=true
-HideWhenNotExisting=true
-IconSet=3
-NumCommands=0
-
 [Interface_ath0]
 CustomCommands=false
 HideWhenNotAvailable=true
@@ -81,13 +81,6 @@ HideWhenNotExisting=true
 IconSet=3
 NumCommands=0
 
-[Interface_ath2]
-CustomCommands=false
-HideWhenNotAvailable=true
-HideWhenNotExisting=true
-IconSet=3
-NumCommands=0
-
 [Interface_wlan0]
 CustomCommands=false
 HideWhenNotAvailable=true
@@ -96,13 +89,6 @@ IconSet=3
 NumCommands=0
 
 [Interface_wlan1]
-CustomCommands=false
-HideWhenNotAvailable=true
-HideWhenNotExisting=true
-IconSet=3
-NumCommands=0
-
-[Interface_wlan2]
 CustomCommands=false
 HideWhenNotAvailable=true
 HideWhenNotExisting=true
