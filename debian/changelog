@@ -1,8 +1,12 @@
-etcskel-sidux (0.7.32) UNRELEASED; urgency=low
+etcskel-sidux (0.7.32) unstable; urgency=low
 
+  [ Bernard Gray ]
   * improve taskbar/icon visibility, enlarge icons/adjust transparency
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue,  6 Feb 2007 08:47:51 +1100
+  [ Stefan Lippers-Hollmann ]
+  * don't let kicker become too large.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Feb 2007 02:39:20 +0100
 
 etcskel-sidux (0.7.31) unstable; urgency=low
 
