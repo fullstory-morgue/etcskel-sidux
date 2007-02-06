@@ -11,6 +11,7 @@ user_pref("font.default", "sans-serif");
 user_pref("font.minimum-size.x-western", 10);
 user_pref("font.size.fixed.x-western", 13);
 user_pref("font.size.variable.x-western", 13);
+user_pref("layout.css.dpi", 0);
 user_pref("mousewheel.withaltkey.action", 1);
 user_pref("mousewheel.withcontrolkey.action", 3);
 user_pref("mousewheel.withshiftkey.action", 2);
