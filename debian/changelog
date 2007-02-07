@@ -1,6 +1,5 @@
-etcskel-sidux (0.7.33) UNRELEASED; urgency=low
+etcskel-sidux (0.7.33) unstable; urgency=low
 
-  [ Bernard Gray ]
   * tweak iceweasel dpi setting 
 
  -- Bernard Gray <bernard.gray@gmail.com>  Wed,  7 Feb 2007 11:59:15 +1100
