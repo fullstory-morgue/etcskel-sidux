@@ -1,3 +1,9 @@
+etcskel-sidux (0.7.35) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  8 Feb 2007 02:01:49 +0100
+
 etcskel-sidux (0.7.34) unstable; urgency=low
 
   * rename iceweasel profile dir
