@@ -1,12 +1,9 @@
-etcskel-sidux (0.7.35) UNRELEASED; urgency=low
+etcskel-sidux (0.7.35) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+  * cover the new iceweasel profiles.
+  * get rid of obsoleted thunderbird preconfig.
 
-  [ Bernard Gray ]
-  * taskbar applet - enable tranparency and window thumbnails 
-
- -- Bernard Gray <bernard.gray@gmail.com>  Fri, 16 Feb 2007 18:08:09 +1100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 19 Feb 2007 18:38:40 +0100
 
 etcskel-sidux (0.7.34) unstable; urgency=low
 
