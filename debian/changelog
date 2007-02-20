@@ -1,8 +1,12 @@
 etcskel-sidux (0.7.36) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 19 Feb 2007 18:42:25 +0100
+  [ Bernard Gray ]
+  * set ktaskbar to show windows from all desktops
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 20 Feb 2007 13:27:56 +1100
 
 etcskel-sidux (0.7.35) unstable; urgency=low
 
