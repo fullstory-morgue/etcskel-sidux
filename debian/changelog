@@ -5,8 +5,10 @@ etcskel-sidux (0.7.36) UNRELEASED; urgency=low
 
   [ Bernard Gray ]
   * set ktaskbar to show windows from all desktops
+  * undo set ktaskbar to show windows from all desktops
+  * turn pager window previews on 
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 20 Feb 2007 13:27:56 +1100
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 21 Feb 2007 11:50:41 +1100
 
 etcskel-sidux (0.7.35) unstable; urgency=low
 
