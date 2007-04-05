@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.39) UNRELEASED; urgency=low
+etcskel-sidux (0.7.39) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Horst Tritremmel ]
   * add skel/.gconf directory for gnome support
 
  -- Horst Tritremmel <hjt@sidux.com>  Thu, 05 Apr 2007 21:46:44 +0200
