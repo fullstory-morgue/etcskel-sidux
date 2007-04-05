@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="desktop_font" mtime="1175761942" type="string">
+                <stringvalue>Sans 10</stringvalue>
+        </entry>
+        <entry name="navigation_window_saved_geometry" mtime="1175753908" type="string">
+                <stringvalue>800x550+107+73</stringvalue>
+        </entry>
+</gconf>

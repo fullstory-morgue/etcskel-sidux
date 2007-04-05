@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="titlebar_font" mtime="1175756731" type="string">
+                <stringvalue>Sans 10</stringvalue>
+        </entry>
+        <entry name="theme" mtime="1175755825" type="string">
+                <stringvalue>Clearlooks</stringvalue>
+        </entry>
+</gconf>
