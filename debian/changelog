@@ -3,10 +3,11 @@ etcskel-sidux (0.7.40) UNRELEASED; urgency=low
   [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
-  [ horst ]
-  * no splash screen for gnome 
+  [ Horst Tritremmel ]
+  * no splash screen for gnome
+  * no screensaver lock
 
- -- horst <horst@siduxbox>  Tue, 10 Apr 2007 15:34:35 +0200
+ -- Horst Tritremmel <hjt@sidux.com>  Tue, 10 Apr 2007 22:57:32 +0200
 
 etcskel-sidux (0.7.39) unstable; urgency=low
 
