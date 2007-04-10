@@ -1,8 +1,12 @@
 etcskel-sidux (0.7.40) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Apr 2007 22:53:26 +0200
+  [ horst ]
+  * no splash screen for gnome 
+
+ -- horst <horst@siduxbox>  Tue, 10 Apr 2007 15:34:35 +0200
 
 etcskel-sidux (0.7.39) unstable; urgency=low
 
