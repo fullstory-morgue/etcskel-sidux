@@ -1,8 +1,12 @@
 etcskel-sidux (0.7.41) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 10 Apr 2007 23:25:22 +0200
+  [ Bernard Gray ]
+  * set default ksplash to sidux-art-kde default
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 25 Apr 2007 22:04:55 +1000
 
 etcskel-sidux (0.7.40) unstable; urgency=low
 
