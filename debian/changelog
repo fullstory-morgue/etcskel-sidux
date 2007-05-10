@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.42) UNRELEASED; urgency=low
+etcskel-sidux (0.7.42) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Horst Tritremmel ]
   * change sidux.jpg to sidux.png in .gconf
 
  -- Horst Tritremmel <hjt@sidux.com>  Thu, 10 May 2007 12:47:12 +0200
