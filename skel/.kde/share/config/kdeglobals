@@ -178,7 +178,7 @@ OpaqueResize=true
 ShowDeleteCommand=true
 ShowIconsOnPushButtons=false
 SingleClick=true
-colorScheme=thememgr.kcsrc
+colorScheme=sidux.kcsrc
 contrast=7
 macStyle=false
 

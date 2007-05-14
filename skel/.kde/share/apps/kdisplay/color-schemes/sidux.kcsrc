@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=sidux
+activeBackground=58,3,0
+activeBlend=233,233,233
+activeForeground=236,227,227
+activeTitleBtnBg=220,220,220
+alternateBackground=238,246,255
+background=196,189,189
+buttonBackground=196,189,189
+buttonForeground=0,0,0
+contrast=6
+foreground=0,0,0
+frame=230,222,220
+handle=230,222,220
+inactiveBackground=63,63,63
+inactiveBlend=255,255,255
+inactiveForeground=96,87,87
+inactiveFrame=230,222,220
+inactiveHandle=230,222,220
+inactiveTitleBtnBg=220,220,220
+linkColor=0,0,192
+selectBackground=108,6,1
+selectForeground=247,247,247
+shadeSortColumn=true
+visitedLinkColor=185,31,7
+windowBackground=255,255,255
+windowForeground=0,0,0
