@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.43) UNRELEASED; urgency=low
+etcskel-sidux (0.7.43) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * add sidux kde colour theme 
   * adjust colour of panel to suit tartaros theme
   * remove shadowing on window decorations text
