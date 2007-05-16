@@ -1,8 +1,12 @@
 etcskel-sidux (0.7.44) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 May 2007 22:24:12 +0200
+  [ Bernard Gray ]
+  * fix kde-colours so they work 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 16 May 2007 22:07:48 +1000
 
 etcskel-sidux (0.7.43) unstable; urgency=low
 
