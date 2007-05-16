@@ -1,9 +1,5 @@
-etcskel-sidux (0.7.44) UNRELEASED; urgency=low
+etcskel-sidux (0.7.44) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * fix kde-colours so they work 
 
  -- Bernard Gray <bernard.gray@gmail.com>  Wed, 16 May 2007 22:07:48 +1000
