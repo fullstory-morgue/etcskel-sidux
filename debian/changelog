@@ -1,6 +1,5 @@
-etcskel-sidux (0.7.46) UNRELEASED; urgency=low
+etcskel-sidux (0.7.46) unstable; urgency=low
 
-  [ Kel Modderman ]
   * Update ktaskbarrc to draw halo's around text, otherwise unactive taskbar
     objects are unidentifiable with current scheme.
 
