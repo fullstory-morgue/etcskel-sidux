@@ -1,3 +1,9 @@
+etcskel-sidux (0.7.47) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 23 May 2007 13:11:05 +0200
+
 etcskel-sidux (0.7.46) unstable; urgency=low
 
   * Update ktaskbarrc to draw halo's around text, otherwise unactive taskbar
