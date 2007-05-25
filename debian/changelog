@@ -1,11 +1,6 @@
-etcskel-sidux (0.7.48) UNRELEASED; urgency=low
+etcskel-sidux (0.7.48) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * fix tiny fonts in gtk apps 
-    - XXX chk to see if  affects gnome build (hjt?)
 
  -- Bernard Gray <bernard.gray@gmail.com>  Fri, 25 May 2007 17:42:49 +1000
 
