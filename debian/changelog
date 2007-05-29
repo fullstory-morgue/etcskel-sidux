@@ -1,8 +1,12 @@
 etcskel-sidux (0.7.49) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 May 2007 13:31:31 +0200
+  [ Bernard Gray ]
+  * set gtk default font to 11pt to resolve vdr display issues
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 29 May 2007 21:43:47 +1000
 
 etcskel-sidux (0.7.48) unstable; urgency=low
 
