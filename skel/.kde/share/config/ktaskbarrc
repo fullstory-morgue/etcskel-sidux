@@ -1,8 +1,0 @@
-[$Version]
-update_info=kickerrc.upd:kde_3_5_taskbarEnums
-
-[Appearance]
-HaloText=true
-
-[General]
-ShowAllWindows=false
